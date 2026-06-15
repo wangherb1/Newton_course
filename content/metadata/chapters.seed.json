@@ -1,0 +1,28 @@
+{
+  "chapters": [
+    {
+      "id": "chapter00_introduction",
+      "label": "第0章：引言、定义、运动定律与绝对时空观",
+      "source_file": "sources/raw/liao_teacher/chapters/chapter_00/牛顿自然哲学的数学原理第0章-2026.docx",
+      "status": "source_available"
+    },
+    {
+      "id": "chapter01_limits",
+      "label": "第一章：初始比与最终比法",
+      "source_file": "sources/raw/liao_teacher/chapters/chapter_01/牛顿自然哲学的数学原理第1章-2026.docx",
+      "status": "source_available"
+    },
+    {
+      "id": "chapter02_centripetal_force",
+      "label": "第二章：向心力的确定",
+      "source_file": "sources/raw/liao_teacher/chapters/chapter_02/牛顿自然哲学的数学原理第2章.docx",
+      "status": "source_available"
+    },
+    {
+      "id": "chapter03_conics_focus",
+      "label": "第三章：环绕焦点的圆锥曲线运动",
+      "source_file": null,
+      "status": "placeholder"
+    }
+  ]
+}

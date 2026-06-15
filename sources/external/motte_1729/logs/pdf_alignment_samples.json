@@ -1,0 +1,458 @@
+[
+  {
+    "label": "vol1_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\pdf\\motte_1729_vol1.pdf",
+    "page_index": 0,
+    "page_rect": [
+      420.20001220703125,
+      722.8800048828125
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4669,
+        8032
+      ],
+      [
+        4669,
+        8032
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_ia_page_0000.png"
+  },
+  {
+    "label": "vol1_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\pdf\\motte_1729_vol1.pdf",
+    "page_index": 2,
+    "page_rect": [
+      420.1000061035156,
+      722.8800048828125
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4668,
+        8032
+      ],
+      [
+        4668,
+        8032
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_ia_page_0002.png"
+  },
+  {
+    "label": "vol1_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\pdf\\motte_1729_vol1.pdf",
+    "page_index": 42,
+    "page_rect": [
+      431.70001220703125,
+      727.2000122070312
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4797,
+        8080
+      ],
+      [
+        4797,
+        8080
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_ia_page_0042.png"
+  },
+  {
+    "label": "vol1_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\pdf\\motte_1729_vol1.pdf",
+    "page_index": 43,
+    "page_rect": [
+      431.0,
+      730.0800170898438
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4789,
+        8112
+      ],
+      [
+        4789,
+        8112
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_ia_page_0043.png"
+  },
+  {
+    "label": "vol1_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\pdf\\motte_1729_vol1.pdf",
+    "page_index": 100,
+    "page_rect": [
+      449.0,
+      738.7000122070312
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4989,
+        8208
+      ],
+      [
+        4989,
+        8208
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_ia_page_0100.png"
+  },
+  {
+    "label": "vol1_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\pdf\\motte_1729_vol1.pdf",
+    "page_index": 413,
+    "page_rect": [
+      447.8999938964844,
+      709.9000244140625
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4977,
+        7888
+      ],
+      [
+        4977,
+        7888
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_ia_page_0413.png"
+  },
+  {
+    "label": "vol1_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\raw_pdf\\mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+    "page_index": 0,
+    "page_rect": [
+      1332.0,
+      2028.0
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1776,
+        2704
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_clear_page_0000.png"
+  },
+  {
+    "label": "vol1_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\raw_pdf\\mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+    "page_index": 2,
+    "page_rect": [
+      1338.0,
+      2034.0
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2712
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_clear_page_0002.png"
+  },
+  {
+    "label": "vol1_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\raw_pdf\\mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+    "page_index": 36,
+    "page_rect": [
+      1338.0,
+      2034.0
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2712
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_clear_page_0036.png"
+  },
+  {
+    "label": "vol1_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\raw_pdf\\mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+    "page_index": 42,
+    "page_rect": [
+      1338.0,
+      2034.0
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2712
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_clear_page_0042.png"
+  },
+  {
+    "label": "vol1_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\raw_pdf\\mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+    "page_index": 100,
+    "page_rect": [
+      1338.0,
+      2034.0
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2712
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_clear_page_0100.png"
+  },
+  {
+    "label": "vol1_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_1\\raw_pdf\\mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+    "page_index": 407,
+    "page_rect": [
+      1332.0,
+      2028.0
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1776,
+        2704
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol1_clear_page_0407.png"
+  },
+  {
+    "label": "vol2_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\pdf\\motte_1729_vol2.pdf",
+    "page_index": 0,
+    "page_rect": [
+      425.9700012207031,
+      724.2999877929688
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4733,
+        8048
+      ],
+      [
+        4733,
+        8048
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_ia_page_0000.png"
+  },
+  {
+    "label": "vol2_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\pdf\\motte_1729_vol2.pdf",
+    "page_index": 2,
+    "page_rect": [
+      425.9700012207031,
+      724.2999877929688
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4733,
+        8048
+      ],
+      [
+        4733,
+        8048
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_ia_page_0002.png"
+  },
+  {
+    "label": "vol2_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\pdf\\motte_1729_vol2.pdf",
+    "page_index": 42,
+    "page_rect": [
+      447.57000732421875,
+      730.0800170898438
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4973,
+        8112
+      ],
+      [
+        4973,
+        8112
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_ia_page_0042.png"
+  },
+  {
+    "label": "vol2_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\pdf\\motte_1729_vol2.pdf",
+    "page_index": 100,
+    "page_rect": [
+      443.20001220703125,
+      728.5999755859375
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4925,
+        8096
+      ],
+      [
+        4925,
+        8096
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_ia_page_0100.png"
+  },
+  {
+    "label": "vol2_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\pdf\\motte_1729_vol2.pdf",
+    "page_index": 266,
+    "page_rect": [
+      448.2900085449219,
+      734.4000244140625
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4981,
+        8160
+      ],
+      [
+        4981,
+        8160
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_ia_page_0266.png"
+  },
+  {
+    "label": "vol2_ia",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\pdf\\motte_1729_vol2.pdf",
+    "page_index": 542,
+    "page_rect": [
+      436.3999938964844,
+      714.2000122070312
+    ],
+    "image_count": 2,
+    "image_dims": [
+      [
+        4849,
+        7936
+      ],
+      [
+        4849,
+        7936
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_ia_page_0542.png"
+  },
+  {
+    "label": "vol2_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\raw_pdf\\mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+    "page_index": 0,
+    "page_rect": [
+      475.9371032714844,
+      687.0380859375
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1984,
+        2864
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_clear_page_0000.png"
+  },
+  {
+    "label": "vol2_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\raw_pdf\\mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+    "page_index": 2,
+    "page_rect": [
+      475.9371032714844,
+      710.7042236328125
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2664
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_clear_page_0002.png"
+  },
+  {
+    "label": "vol2_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\raw_pdf\\mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+    "page_index": 21,
+    "page_rect": [
+      475.9371032714844,
+      710.7042236328125
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2664
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_clear_page_0021.png"
+  },
+  {
+    "label": "vol2_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\raw_pdf\\mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+    "page_index": 42,
+    "page_rect": [
+      475.9371032714844,
+      710.7042236328125
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2664
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_clear_page_0042.png"
+  },
+  {
+    "label": "vol2_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\raw_pdf\\mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+    "page_index": 100,
+    "page_rect": [
+      475.9371032714844,
+      710.7042236328125
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1784,
+        2664
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_clear_page_0100.png"
+  },
+  {
+    "label": "vol2_clear",
+    "pdf": "sources\\external\\motte_1729\\vol_2\\raw_pdf\\mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+    "page_index": 266,
+    "page_rect": [
+      475.9371032714844,
+      687.0380859375
+    ],
+    "image_count": 1,
+    "image_dims": [
+      [
+        1984,
+        2864
+      ]
+    ],
+    "render": "sources\\external\\motte_1729\\logs\\pdf_alignment_samples\\vol2_clear_page_0266.png"
+  }
+]

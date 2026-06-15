@@ -1,0 +1,27 @@
+{{header
+|title=[[../../|The Mathematical Principles of Natural Philosophy]]
+|section = Book I, Section II: ''Of the invention of centripetal forces.''
+|previous = [[../Section 1|Section I]]
+|next = [[../Section 3|Section III]]
+|author =Isaac Newton
+|translator =Andrew Motte
+|notes = '''Contents'''
+*[[#Prop1|Proposition I]]
+*[[#Prop2|Proposition II]]
+*[[#Scholium1|Scholium]]
+*[[#Prop3|Proposition III]]
+*[[#Scholium2|Scholium]]
+*[[#Prop4|Proposition IV]]
+*[[#Scholium3|Scholium]]
+*[[#Prop5|Proposition V]]
+*[[#Prop6|Proposition VI]]
+*[[#Prop7|Proposition VII]]
+*[[#Prop8|Proposition VIII]]
+*[[#Prop9|Proposition IX]]
+*[[#Lem12|Lemma XII]]
+*[[#Prop10|Proposition X]]
+*[[#Scholium4|Scholium]]
+}}
+<pages index="The Mathematical Principles of Natural Philosophy - 1729 - Volume 1.djvu" include="103-106,109-124,127-128" />
+
+[[Category:Philosophiae Naturalis Principia Mathematica]]

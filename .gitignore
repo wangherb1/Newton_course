@@ -1,0 +1,55 @@
+# dependencies
+node_modules/
+.astro/
+dist/
+.next/
+__pycache__/
+*.pyc
+
+# local raw source materials, not for public commit by default
+sources/raw/**
+sources/processed/text_extracts/**
+sources/prototypes/**
+sources/external/**/raw_pdf/**
+!sources/external/motte_1729/vol_*/raw_pdf/README.md
+sources/external/**/scans/**
+sources/external/**/downloaded_archives/**
+sources/external/motte_1729/vol_*/pdf/**
+sources/external/motte_1729/vol_*/derivatives/**
+sources/external/motte_1729/vol_*/large_assets/jp2/**
+sources/external/motte_1729/vol_*/archive_raw/*_meta.sqlite
+sources/external/motte_1729/ocr/**/djvu.txt
+sources/external/motte_1729/ocr/**/djvu.xml
+sources/external/motte_1729/ocr/**/hocr.html
+sources/external/motte_1729/ocr/**/*.gz
+sources/external/motte_1729/page_maps/**/page_numbers.json
+sources/external/motte_1729/page_maps/**/scandata.xml
+sources/external/motte_1729/logs/pdf_alignment_samples/**
+
+# local/generated large files
+*.zip
+*.7z
+*.rar
+*.tmp
+*.bak
+web/public/assets/videos/**/*.mp4
+web/public/assets/videos/**/*.mov
+web/public/assets/videos/**/*.avi
+assets/videos/**/*.mp4
+assets/videos/**/*.mov
+assets/videos/**/*.avi
+exports/devserver/
+exports/temp/
+exports/tmp/
+exports/headless-*/
+exports/*profile*/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# env
+.env
+.env.*

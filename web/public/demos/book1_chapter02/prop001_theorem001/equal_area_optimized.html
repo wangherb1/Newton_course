@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自然哲学的数学原理：命题1 定理1</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --panel-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --accent-blue: #0284c7;
+            --accent-blue-hover: #0369a1;
+            --accent-red: #dc2626;
+            --border-color: #e2e8f0;
+            --area-color: rgba(14, 165, 233, 0.25);
+            --area-stroke: #0ea5e9;
+            --area-active: rgba(245, 158, 11, 0.4);
+            --area-active-stroke: #d97706;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: var(--panel-bg);
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            flex-shrink: 0;
+        }
+
+        header h1 {
+            margin: 0 0 0.25rem 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .main-content {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+            flex-direction: column;
+        }
+
+        @media (min-width: 768px) {
+            .main-content {
+                flex-direction: row;
+            }
+        }
+
+        .canvas-container {
+            flex: 1;
+            position: relative;
+            background-color: var(--bg-color);
+            overflow: hidden;
+            min-height: 400px;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .panel {
+            width: 100%;
+            background-color: var(--panel-bg);
+            border-left: 1px solid var(--border-color);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            border-top: 1px solid var(--border-color);
+        }
+
+        @media (min-width: 768px) {
+            .panel {
+                width: 320px;
+                border-top: none;
+            }
+        }
+
+        .panel-section {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .panel-section h2 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+            color: var(--text-main);
+        }
+
+        .control-group {
+            margin-bottom: 1rem;
+        }
+
+        .control-group label {
+            display: block;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-muted);
+        }
+
+        input[type="range"] {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background-color: var(--accent-blue);
+            color: white;
+            border: none;
+            padding: 0.375rem 0.75rem;
+            font-size: 0.875rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            font-family: inherit;
+        }
+
+        button:hover {
+            background-color: var(--accent-blue-hover);
+        }
+
+        button:disabled {
+            background-color: var(--border-color);
+            color: var(--text-muted);
+            cursor: not-allowed;
+        }
+
+        .data-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            font-size: 0.875rem;
+        }
+
+        .data-item {
+            background: var(--bg-color);
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+
+        .data-label {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .data-value {
+            font-weight: 500;
+            font-family: monospace;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.875rem;
+            text-align: left;
+            margin-top: 0.5rem;
+        }
+
+        .comparison-table th, .comparison-table td {
+            padding: 0.375rem 0.25rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .comparison-table th {
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .comparison-table td.mono {
+            font-family: monospace;
+            text-align: right;
+        }
+
+        .legend {
+            display: flex;
+            align-items: center;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            margin-right: 0.5rem;
+        }
+        
+        .math-text {
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>命题 I. 定理 I.</h1>
+    <p>物体受指向固定中心的向心力作用时，其在轨道上与固定中心连线所扫过的面积在固定平面内，且与时间成正比。</p>
+</header>
+
+<div class="main-content">
+    <div class="canvas-container" id="canvasContainer">
+        <canvas id="simCanvas"></canvas>
+    </div>
+
+    <aside class="panel">
+        <div class="panel-section">
+            <h2>交互控制</h2>
+            <div class="control-group">
+                <label for="segmentsSlider">等时间分段数 (<span class="math-text">N</span> = <span id="segmentsValue">12</span>)</label>
+                <input type="range" id="segmentsSlider" min="4" max="24" step="1" value="12">
+            </div>
+            <div class="btn-group">
+                <button id="btnPlay">播放</button>
+                <button id="btnPause">暂停</button>
+                <button id="btnNext">下一段</button>
+                <button id="btnShowAll">显示全轨道</button>
+                <button id="btnReset">重置</button>
+            </div>
+        </div>
+
+        <div class="panel-section">
+            <h2>几何与面积检验</h2>
+            <div class="data-grid">
+                <div class="data-item">
+                    <div class="data-label">轨道离心率 <span class="math-text">e</span></div>
+                    <div class="data-value">0.750</div>
+                </div>
+                <div class="data-item">
+                    <div class="data-label">每段理论面积 <span class="math-text">ΔA</span></div>
+                    <div class="data-value" id="valTheoryArea">0.000</div>
+                </div>
+                <div class="data-item">
+                    <div class="data-label">曲线采样最大误差</div>
+                    <div class="data-value" id="valMaxError">0.00%</div>
+                </div>
+                <div class="data-item">
+                    <div class="data-label">当前运行时间 <span class="math-text">t</span></div>
+                    <div class="data-value" id="valTime">0.00 T</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel-section">
+            <h2>力心连线特征对比</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>参数</th>
+                        <th>近焦点段</th>
+                        <th>远焦点段</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>平均连线长度</td>
+                        <td class="mono" id="cmpNearR">0.00</td>
+                        <td class="mono" id="cmpFarR">0.00</td>
+                    </tr>
+                    <tr>
+                        <td>扫过转角 <span class="math-text">Δθ</span></td>
+                        <td class="mono" id="cmpNearTheta">0.00°</td>
+                        <td class="mono" id="cmpFarTheta">0.00°</td>
+                    </tr>
+                    <tr>
+                        <td>多边形积分面积</td>
+                        <td class="mono" id="cmpNearArea">0.00</td>
+                        <td class="mono" id="cmpFarArea">0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div style="margin-top: 1rem;">
+                <div class="legend"><div class="legend-color" style="background: var(--accent-red);"></div> 固定力心 S (焦点)</div>
+                <div class="legend"><div class="legend-color" style="background: #94a3b8;"></div> 几何中心 C</div>
+                <div class="legend"><div class="legend-color" style="background: var(--area-active); border: 1px solid var(--area-active-stroke);"></div> 当前相等时间扫过区域</div>
+            </div>
+        </div>
+    </aside>
+</div>
+
+<script>
+/**
+ * 命题1 定理1 动画演示系统
+ * 严格基于数学模型：使用开普勒方程确保时间比例真实，而不是简单的视觉缓动。
+ */
+const App = (function() {
+    // --- DOM Elements ---
+    const canvas = document.getElementById('simCanvas');
+    const ctx = canvas.getContext('2d', { alpha: false });
+    const container = document.getElementById('canvasContainer');
+    
+    // Controls
+    const sliderN = document.getElementById('segmentsSlider');
+    const valN = document.getElementById('segmentsValue');
+    const btnPlay = document.getElementById('btnPlay');
+    const btnPause = document.getElementById('btnPause');
+    const btnNext = document.getElementById('btnNext');
+    const btnShowAll = document.getElementById('btnShowAll');
+    const btnReset = document.getElementById('btnReset');
+    
+    // Data Dashboard
+    const valTheoryArea = document.getElementById('valTheoryArea');
+    const valMaxError = document.getElementById('valMaxError');
+    const valTime = document.getElementById('valTime');
+    const cmpNearR = document.getElementById('cmpNearR');
+    const cmpFarR = document.getElementById('cmpFarR');
+    const cmpNearTheta = document.getElementById('cmpNearTheta');
+    const cmpFarTheta = document.getElementById('cmpFarTheta');
+    const cmpNearArea = document.getElementById('cmpNearArea');
+    const cmpFarArea = document.getElementById('cmpFarArea');
+
+    // --- Physical & Geometric Model ---
+    const a = 1.0;          // 半长轴 (归一化单位)
+    const e = 0.75;         // 离心率 (较高离心率便于观察)
+    const b = a * Math.sqrt(1 - e * e); // 半短轴
+    const c = a * e;        // 焦距
+    const totalArea = Math.PI * a * b;
+    
+    // 力心固定在右焦点
+    const focusS = { x: c, y: 0 }; 
+
+    // --- Application State ---
+    let segmentsCount = parseInt(sliderN.value);
+    let scale = 1;
+    let offsetX = 0;
+    let offsetY = 0;
+    
+    // Animation state
+    let isPlaying = false;
+    let showAll = true; // 默认展示全貌验证核心结论
+    let currentSegmentIndex = 0;
+    let segmentProgress = 1.0; // 0.0 to 1.0
+    let lastTimestamp = 0;
+    const ANIMATION_DURATION_PER_SEGMENT = 1500; // ms
+
+    // 缓存分段数据用于快速绘制和数据面板更新
+    let segmentsData = [];
+
+    // --- Math Utilities ---
+
+    /**
+     * 牛顿-拉弗森法求解开普勒方程: M = E - e * sin(E)
+     * @param {number} M 平近点角 (与时间成正比)
+     * @param {number} e 离心率
+     * @returns {number} 偏近点角 E
+     */
+    function solveKepler(M, e) {
+        let E = M;
+        const maxIter = 15;
+        const tol = 1e-10;
+        for (let i = 0; i < maxIter; i++) {
+            let f = E - e * Math.sin(E) - M;
+            let df = 1 - e * Math.cos(E);
+            let dE = f / df;
+            E = E - dE;
+            if (Math.abs(dE) < tol) break;
+        }
+        return E;
+    }
+
+    /**
+     * 根据偏近点角计算轨道上的坐标点
+     * @param {number} E 偏近点角
+     * @returns {Object} 笛卡尔坐标 {x, y}
+     */
+    function getPointFromE(E) {
+        return {
+            x: a * Math.cos(E),
+            y: b * Math.sin(E)
+        };
+    }
+
+    /**
+     * 根据平近点角获取点坐标
+     * @param {number} M 平近点角
+     * @returns {Object} 坐标
+     */
+    function getPointFromM(M) {
+        const E = solveKepler(M, e);
+        return getPointFromE(E);
+    }
+
+    /**
+     * 计算多边形面积 (Shoelace formula) 用于校验
+     */
+    function calculatePolygonArea(pts) {
+        let area = 0;
+        for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) {
+            area += (pts[j].x + pts[i].x) * (pts[j].y - pts[i].y);
+        }
+        return Math.abs(area / 2.0);
+    }
+    
+    /**
+     * 计算两点间相对于力心的夹角和平均半径
+     */
+    function getSegmentStats(M_start, M_end) {
+        const p1 = getPointFromM(M_start);
+        const p2 = getPointFromM(M_end);
+        
+        // 向量1
+        const dx1 = p1.x - focusS.x;
+        const dy1 = p1.y - focusS.y;
+        const r1 = Math.sqrt(dx1*dx1 + dy1*dy1);
+        const a1 = Math.atan2(dy1, dx1);
+        
+        // 向量2
+        const dx2 = p2.x - focusS.x;
+        const dy2 = p2.y - focusS.y;
+        const r2 = Math.sqrt(dx2*dx2 + dy2*dy2);
+        let a2 = Math.atan2(dy2, dx2);
+        
+        if (a2 < a1) a2 += 2 * Math.PI;
+        let dTheta = a2 - a1;
+        
+        // 生成多边形求面积
+        const points = [focusS];
+        const steps = 30; // 细分采样逼近曲线
+        for(let i=0; i<=steps; i++) {
+            const m = M_start + (M_end - M_start) * (i / steps);
+            points.push(getPointFromM(m));
+        }
+        const polyArea = calculatePolygonArea(points);
+        
+        return {
+            rAvg: (r1 + r2) / 2,
+            dTheta: dTheta,
+            area: polyArea
+        };
+    }
+
+    // --- Precomputation ---
+    function computeSegments() {
+        segmentsData = [];
+        const dM = (2 * Math.PI) / segmentsCount;
+        
+        let maxErr = 0;
+        const theoryArea = totalArea / segmentsCount;
+
+        for (let i = 0; i < segmentsCount; i++) {
+            const mStart = i * dM;
+            const mEnd = (i + 1) * dM;
+            const stats = getSegmentStats(mStart, mEnd);
+            
+            const err = Math.abs(stats.area - theoryArea) / theoryArea * 100;
+            if (err > maxErr) maxErr = err;
+
+            segmentsData.push({
+                mStart: mStart,
+                mEnd: mEnd,
+                stats: stats
+            });
+        }
+        
+        updateDashboard(theoryArea, maxErr);
+    }
+
+    function updateDashboard(theoryArea, maxErr) {
+        // UI 更新理论值
+        valTheoryArea.innerText = (theoryArea * 1000).toFixed(2); // 缩放数值以便阅读
+        valMaxError.innerText = maxErr.toFixed(4) + '%';
+        
+        // 找出近焦点段（M=0附近）和远焦点段（M=π附近）
+        // 右焦点在 c，所以近日点在 x=a (M=0), 远日点在 x=-a (M=π)
+        const nearIdx = 0; 
+        const farIdx = Math.floor(segmentsCount / 2);
+        
+        const nearStat = segmentsData[nearIdx].stats;
+        const farStat = segmentsData[farIdx].stats;
+        
+        cmpNearR.innerText = nearStat.rAvg.toFixed(3);
+        cmpFarR.innerText = farStat.rAvg.toFixed(3);
+        
+        cmpNearTheta.innerText = (nearStat.dTheta * 180 / Math.PI).toFixed(1) + '°';
+        cmpFarTheta.innerText = (farStat.dTheta * 180 / Math.PI).toFixed(1) + '°';
+        
+        cmpNearArea.innerText = (nearStat.area * 1000).toFixed(2);
+        cmpFarArea.innerText = (farStat.area * 1000).toFixed(2);
+    }
+
+    // --- Rendering ---
+    
+    function resize() {
+        const rect = container.getBoundingClientRect();
+        // 处理高DPI屏幕
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = rect.width * dpr;
+        canvas.height = rect.height * dpr;
+        
+        // 计算缩放：画布留白20%
+        const minDim = Math.min(canvas.width, canvas.height);
+        scale = (minDim * 0.4) / a;
+        
+        // 中心平移 (考虑焦点偏心，使其视觉平衡)
+        offsetX = canvas.width / 2;
+        offsetY = canvas.height / 2;
+        
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0); // Reset for clearing
+    }
+
+    function toScreen(pt) {
+        return {
+            x: offsetX + pt.x * scale,
+            y: offsetY - pt.y * scale // 屏幕y轴朝下
+        };
+    }
+
+    function drawArea(mStart, mEnd, fillStyle, strokeStyle) {
+        ctx.beginPath();
+        const sScreen = toScreen(focusS);
+        ctx.moveTo(sScreen.x, sScreen.y);
+        
+        // 曲线采样点
+        const steps = 30;
+        for (let i = 0; i <= steps; i++) {
+            const m = mStart + (mEnd - mStart) * (i / steps);
+            const pt = toScreen(getPointFromM(m));
+            ctx.lineTo(pt.x, pt.y);
+        }
+        
+        ctx.closePath();
+        
+        ctx.fillStyle = fillStyle;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = strokeStyle;
+        ctx.stroke();
+        
+        // 画连线
+        const p1 = toScreen(getPointFromM(mStart));
+        const p2 = toScreen(getPointFromM(mEnd));
+        
+        ctx.beginPath();
+        ctx.moveTo(sScreen.x, sScreen.y);
+        ctx.lineTo(p1.x, p1.y);
+        ctx.moveTo(sScreen.x, sScreen.y);
+        ctx.lineTo(p2.x, p2.y);
+        ctx.strokeStyle = strokeStyle;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+    }
+
+    function drawScene() {
+        // Clear background
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.fillStyle = '#f8fafc';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Draw Reference Ellipse Path
+        ctx.beginPath();
+        const steps = 100;
+        for (let i = 0; i <= steps; i++) {
+            const E = (i / steps) * 2 * Math.PI;
+            const pt = toScreen(getPointFromE(E));
+            if (i === 0) ctx.moveTo(pt.x, pt.y);
+            else ctx.lineTo(pt.x, pt.y);
+        }
+        ctx.strokeStyle = '#cbd5e1';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        
+        // Draw Segments
+        if (showAll) {
+            // Draw all complete segments
+            for (let i = 0; i < segmentsCount; i++) {
+                // Alternating color for visibility if desired, but spec says uniform is fine. 
+                // Using standard area color.
+                const isEven = i % 2 === 0;
+                const fill = isEven ? 'rgba(14, 165, 233, 0.15)' : 'rgba(14, 165, 233, 0.25)';
+                drawArea(segmentsData[i].mStart, segmentsData[i].mEnd, fill, '#0ea5e9');
+            }
+            // Update time display to complete
+            valTime.innerText = '1.00 T';
+        } else {
+            // Draw completed segments in this cycle
+            for (let i = 0; i < currentSegmentIndex; i++) {
+                drawArea(segmentsData[i].mStart, segmentsData[i].mEnd, 'rgba(14, 165, 233, 0.25)', '#0ea5e9');
+            }
+            
+            // Draw animating segment
+            if (currentSegmentIndex < segmentsCount) {
+                const seg = segmentsData[currentSegmentIndex];
+                const mCurrent = seg.mStart + (seg.mEnd - seg.mStart) * segmentProgress;
+                
+                // Draw partial area
+                if (segmentProgress > 0.01) {
+                    drawArea(seg.mStart, mCurrent, 'rgba(245, 158, 11, 0.4)', '#d97706');
+                }
+                
+                // Update time display based on M (M is proportional to t)
+                const currentTotalM = seg.mStart + (seg.mEnd - seg.mStart) * segmentProgress;
+                valTime.innerText = (currentTotalM / (2 * Math.PI)).toFixed(2) + ' T';
+            } else {
+                valTime.innerText = '1.00 T';
+            }
+        }
+        
+        // Draw Centers
+        // Geometric Center
+        const centerScreen = toScreen({x: 0, y: 0});
+        ctx.beginPath();
+        ctx.arc(centerScreen.x, centerScreen.y, 4, 0, 2 * Math.PI);
+        ctx.fillStyle = '#94a3b8';
+        ctx.fill();
+        
+        // Fixed Force Center (Focus S)
+        const focusScreen = toScreen(focusS);
+        ctx.beginPath();
+        ctx.arc(focusScreen.x, focusScreen.y, 6, 0, 2 * Math.PI);
+        ctx.fillStyle = '#dc2626';
+        ctx.fill();
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+    }
+
+    // --- Animation Loop ---
+    function animate(timestamp) {
+        if (!lastTimestamp) lastTimestamp = timestamp;
+        const dt = timestamp - lastTimestamp;
+        lastTimestamp = timestamp;
+
+        if (isPlaying && !showAll) {
+            segmentProgress += dt / ANIMATION_DURATION_PER_SEGMENT;
+            
+            if (segmentProgress >= 1.0) {
+                segmentProgress = 0.0;
+                currentSegmentIndex++;
+                
+                if (currentSegmentIndex >= segmentsCount) {
+                    // 循环播放
+                    currentSegmentIndex = 0;
+                    isPlaying = false; // 播完一圈暂停，符合学术演示节奏
+                    updateButtons();
+                }
+            }
+            drawScene();
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    // --- Interaction Logic ---
+    function updateButtons() {
+        btnPlay.disabled = isPlaying && !showAll;
+        btnPause.disabled = !isPlaying || showAll;
+        btnNext.disabled = showAll || isPlaying;
+    }
+
+    function init() {
+        window.addEventListener('resize', () => {
+            resize();
+            drawScene();
+        });
+        
+        sliderN.addEventListener('input', (e) => {
+            segmentsCount = parseInt(e.target.value);
+            valN.innerText = segmentsCount;
+            computeSegments();
+            
+            if (showAll) {
+                drawScene();
+            } else {
+                currentSegmentIndex = 0;
+                segmentProgress = 0.0;
+                drawScene();
+            }
+        });
+
+        btnPlay.addEventListener('click', () => {
+            if (showAll) {
+                showAll = false;
+                currentSegmentIndex = 0;
+                segmentProgress = 0.0;
+            } else if (currentSegmentIndex >= segmentsCount) {
+                 currentSegmentIndex = 0;
+                 segmentProgress = 0.0;
+            }
+            isPlaying = true;
+            lastTimestamp = performance.now();
+            updateButtons();
+        });
+
+        btnPause.addEventListener('click', () => {
+            isPlaying = false;
+            updateButtons();
+        });
+
+        btnNext.addEventListener('click', () => {
+            if (showAll) {
+                showAll = false;
+                currentSegmentIndex = 0;
+            } else {
+                currentSegmentIndex = (currentSegmentIndex + 1) % segmentsCount;
+            }
+            segmentProgress = 1.0; // 瞬间完成本段
+            drawScene();
+            updateButtons();
+        });
+
+        btnShowAll.addEventListener('click', () => {
+            showAll = true;
+            isPlaying = false;
+            drawScene();
+            updateButtons();
+        });
+        
+        btnReset.addEventListener('click', () => {
+            showAll = false;
+            isPlaying = false;
+            currentSegmentIndex = 0;
+            segmentProgress = 0.0;
+            drawScene();
+            updateButtons();
+        });
+
+        // Initialize state
+        computeSegments();
+        resize();
+        
+        // 默认显示全景
+        showAll = true; 
+        updateButtons();
+        
+        // Start loop
+        requestAnimationFrame(animate);
+        // Force first draw
+        drawScene();
+    }
+
+    return {
+        init: init
+    };
+})();
+
+// Bootstrap
+window.onload = App.init;
+
+</script>
+</body>
+</html>

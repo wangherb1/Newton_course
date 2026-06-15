@@ -1,0 +1,158 @@
+---
+import DiscussionPlaceholder from '../../../components/DiscussionPlaceholder';
+import ModernExplanationBlock from '../../../components/ModernExplanationBlock';
+import NodeGraphLinks from '../../../components/NodeGraphLinks';
+import NodeHero from '../../../components/NodeHero';
+import NodeMetaPanel from '../../../components/NodeMetaPanel';
+import QuestionBlock from '../../../components/QuestionBlock';
+import SourceBlock from '../../../components/SourceBlock.astro';
+import TeacherTextBlock from '../../../components/TeacherTextBlock';
+import AreaLawDemo from '../../../components/demos/AreaLawDemo';
+import { assetPath } from '../../../data/routes';
+import {
+  chapterIntro,
+  englishProof,
+  englishStatement,
+  graphLinks,
+  modernExplanation,
+  nodeMeta,
+  questions,
+  reviewPanel,
+  teacherProof,
+} from '../../../data/prop001Theorem001';
+import chapterThemes from '../../../../../assets/theme/chapter_themes.json';
+import heroVisuals from '../../../../../assets/theme/hero_visuals.json';
+import siteConfig from '../../../../../assets/theme/site_config.json';
+import theme from '../../../../../assets/theme/theme.json';
+import '../../../styles/global.css';
+
+const chapterTheme = chapterThemes[nodeMeta.themeKey as keyof typeof chapterThemes];
+const heroVisual = heroVisuals[nodeMeta.id as keyof typeof heroVisuals];
+const showReviewPanel = siteConfig.reviewPanel.visible && reviewPanel.visible;
+const lectureVideoUrl = import.meta.env.PUBLIC_SAMPLE_VIDEO_URL || '';
+const pageTitle = `${nodeMeta.displayId}：${nodeMeta.shortTitle} | 牛顿《原理》现代精读`;
+const pageVariables = [
+  `--deep-blue: ${theme.colors.deepBlue}`,
+  `--gold: ${theme.colors.gold}`,
+  `--parchment: ${theme.colors.parchment}`,
+  `--ink-green: ${theme.colors.inkGreen}`,
+  `--paper: ${theme.colors.paper}`,
+  `--text: ${theme.colors.text}`,
+  `--font-cn: ${theme.fonts.chinese}`,
+  `--font-en: ${theme.fonts.english}`,
+  `--font-math: ${theme.fonts.math}`,
+  `--card-radius: ${theme.components.cardRadius}`,
+  `--button-radius: ${theme.components.buttonRadius}`,
+  `--chapter-primary: ${chapterTheme.primaryColor}`,
+].join('; ');
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href={assetPath('/favicon.svg')} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="牛顿《原理》命题1 定理1：仅受向心力作用的物体与固定力心的连线扫面积速度恒定。"
+    />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <div class="site-shell" style={pageVariables}>
+      <NodeHero {...nodeMeta} heroVisual={heroVisual} />
+      <main class="node-content">
+        {showReviewPanel && <NodeMetaPanel items={reviewPanel.items} />}
+
+        {chapterIntro.visible && (
+          <SourceBlock title="第二章导读" kicker="Teacher manuscript">
+            {chapterIntro.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          </SourceBlock>
+        )}
+
+        <SourceBlock title="视频课：等面积定律讲解" kicker="Lecture video" className="video-lesson-block">
+          <p class="source-note">本模块用于承载后续老师线下讲课视频。当前视频为样板演示占位，正式发布前应替换为已确认授权的课程视频。</p>
+          {lectureVideoUrl ? (
+          <figure class="video-lesson-figure">
+            <video controls preload="metadata" src={lectureVideoUrl}>
+              当前浏览器不支持 HTML5 视频播放。
+            </video>
+            <figcaption>示例视频：费曼关于行星在相同时间内扫过相等面积的讲解。该视频仅用于样板页模块演示。</figcaption>
+          </figure>
+          ) : (
+            <div class="video-lesson-placeholder">
+              Online preview omits the local 413 MB sample video. Set <code>PUBLIC_SAMPLE_VIDEO_URL</code> to enable the player.
+            </div>
+          )}
+        </SourceBlock>
+
+        <SourceBlock
+          title="Newton 原文：Andrew Motte 1729 英译本"
+          kicker="Primary English source"
+          source="Source: Wikisource, The Mathematical Principles of Natural Philosophy (1729), Book I, Section II, Proposition I, Theorem I."
+          className="english-block"
+        >
+          <h3>PROPOSITION I. THEOREM I.</h3>
+          <p class="english-proposition-statement"><strong><em>{englishStatement}</em></strong></p>
+          <p>{englishProof[0]}</p>
+          <figure class="english-source-figure">
+            <img
+              src={assetPath('/assets/primary-sources/book1_chapter02/principia1846-105.png')}
+              alt="Original Principia plate showing the polygonal orbit construction around point S"
+            />
+          </figure>
+          {englishProof.slice(1).map((paragraph) => <p>{paragraph}</p>)}
+          <details>
+            <summary>Corollaries I-VI：原文已定位，本样板页暂不展开</summary>
+            <p>后续按独立内容节点逐项建设，当前仅保留来源定位。</p>
+          </details>
+        </SourceBlock>
+
+        <TeacherTextBlock
+          paragraphs={teacherProof}
+          figure={{
+            src: '/assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png',
+            alt: '廖日东老师第2章稿件中用于说明命题1定理1几何证明的原图',
+            insertAfterParagraph: 2,
+          }}
+        />
+        <ModernExplanationBlock
+          items={modernExplanation}
+          figure={{
+            src: '/assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_modern_figure_2_1.png',
+            alt: '廖日东老师第2章稿件图2.1：极坐标系中仅受向心力作用的物体运动示意图',
+            caption: '图2.1 仅受向心力作用的物体的运动',
+          }}
+        />
+
+        <SourceBlock title="图示与动态演示：椭圆轨道中的等面积定律" kicker="Interactive equal-area demonstration">
+          <p class="source-note">椭圆轨道以焦点 S 为固定力心。相等时间间隔内，近焦点处连线较短而转角较大，远焦点处连线较长而转角较小；焦点连线扫过的面积保持相等。</p>
+          <AreaLawDemo client:load />
+        </SourceBlock>
+
+        <QuestionBlock questions={questions} />
+        <NodeGraphLinks {...graphLinks} />
+
+        <section class="section-card">
+          <div class="section-heading">
+            <p class="section-kicker">Discussion placeholder</p>
+            <h2>评论 / 讨论区</h2>
+          </div>
+          <DiscussionPlaceholder />
+        </section>
+
+        <section class="section-card rights-block">
+          <div class="section-heading">
+            <p class="section-kicker">Rights and attribution</p>
+            <h2>署名与版权说明</h2>
+          </div>
+          <p>中译版与现代解释：廖日东，北京理工大学</p>
+          <p>数字化整理与交互演示建设：WYL / 项目助教团队</p>
+          <p>原典来源：Isaac Newton, <em>Philosophiae Naturalis Principia Mathematica</em>; English translation by Andrew Motte, 1729.</p>
+          <p>当前页面状态：样板草稿，待校对与授权确认。</p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+---
+import { siteRoutes } from '../../data/routes';
+---
+
+<section class="home-section home-section--dark">
+  <div class="featured-sample">
+    <div>
+      <p class="section-kicker">Featured sample page</p>
+      <h2>当前样板页</h2>
+      <p class="featured-sample__id">命题1 定理1</p>
+      <h3>扫面积速度恒定</h3>
+      <p>
+        本页展示仅受向心力作用的物体与固定力心连线扫面积速度恒定，是第二章“向心力的确定”的入口，
+        也是后续由轨道反推向心力规律的基础。
+      </p>
+      <div class="module-tags" aria-label="样板页模块">
+        {['英文原文', '导师中文译文', '现代微积分解释', '动态图示', '思考题', '命题网络'].map((tag) => (
+          <span>{tag}</span>
+        ))}
+      </div>
+      <a class="button button--gold" href={siteRoutes.sampleProp001Theorem001}>进入样板页</a>
+    </div>
+    <div class="featured-sample__diagram" aria-hidden="true">
+      <span class="featured-sample__focus">S</span>
+      <span class="featured-sample__orbit"></span>
+      <span class="featured-sample__ray featured-sample__ray--one"></span>
+      <span class="featured-sample__ray featured-sample__ray--two"></span>
+    </div>
+  </div>
+</section>

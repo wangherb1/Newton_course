@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1690851672</mtime>
+    <size>15321</size>
+    <md5>af2fc2d7f895cd16cdaee575fb6acf8f</md5>
+    <crc32>6ea8f3c8</crc32>
+    <sha1>5d9d951f41400222ab2615623d3b32de1f0ca26e</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1.epub" source="derivative">
+    <hocr_epub_module_version>0.0.1</hocr_epub_module_version>
+    <hocr_epub_hocr_version>1.1.66</hocr_epub_hocr_version>
+    <format>EPUB</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr.html</original>
+    <mtime>1758420431</mtime>
+    <size>181361866</size>
+    <md5>747811bba2036e5b7e501ae9db845e41</md5>
+    <crc32>f65593be</crc32>
+    <sha1>503f19a72227e158949421332886e2b0105d4b41</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1.pdf" source="derivative">
+    <pdf_module_version>0.0.23</pdf_module_version>
+    <format>Text PDF</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_page_numbers.json</original>
+    <mtime>1690850063</mtime>
+    <size>138984203</size>
+    <md5>c88866acdba577f06787a846b4db43a9</md5>
+    <crc32>f43f8e9f</crc32>
+    <sha1>81e23c8cd741fe7457720c3d93c4fbd11716cdd4</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_archive.torrent" source="metadata">
+    <btih>a74c59fc545dd84b5bfc9924eb74d4865bf7c342</btih>
+    <mtime>1758420882</mtime>
+    <size>44931</size>
+    <md5>afb1d2b1e5c8e1c42b4a364c1ba9cbd3</md5>
+    <crc32>946befe9</crc32>
+    <sha1>bd439a31cb0a67655d732bd9fd3419c1c552e9f3</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_chocr.html.gz" source="derivative">
+    <ocr>tesseract 5.3.0-3-g9920</ocr>
+    <ocr_parameters>lang-Fraktur;lang-enm;two-pass-disabled;pass-dpi-enabled;autonomous-mode-disabled;binarisation-method-leptonica-sauvola</ocr_parameters>
+    <ocr_module_version>0.0.21</ocr_module_version>
+    <ocr_detected_script>Latin</ocr_detected_script>
+    <ocr_detected_script_conf>0.8627</ocr_detected_script_conf>
+    <ocr_detected_lang>en</ocr_detected_lang>
+    <ocr_detected_lang_conf>1.0000</ocr_detected_lang_conf>
+    <format>chOCR</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_jp2.zip</original>
+    <mtime>1690836139</mtime>
+    <size>7984854</size>
+    <md5>b15ef919a1b38f175d2dbf158319005d</md5>
+    <crc32>c2f31405</crc32>
+    <sha1>7b61a9d8d7611e6b232e8dccf35a07ebc622406d</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_djvu.txt" source="derivative">
+    <format>DjVuTXT</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_djvu.xml</original>
+    <mtime>1690839097</mtime>
+    <size>540408</size>
+    <md5>e5dcb1e0a47993c4d50a4dca274f3cc8</md5>
+    <crc32>a47b5ed8</crc32>
+    <sha1>f34286cab8c4bdd8f4c3213ac55754c3d2c6c37e</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_djvu.xml" source="derivative">
+    <format>Djvu XML</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr.html</original>
+    <mtime>1690837849</mtime>
+    <size>8111957</size>
+    <md5>9bf90b5909c1dc66b31268221b0eb0e8</md5>
+    <crc32>0818c30b</crc32>
+    <sha1>0cdb68224ab749b6d2badc6782511d8da29bdbe1</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>abed180565aca949bbcded0d84104090</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_frame-md.json" source="original">
+    <mtime>1690820495</mtime>
+    <size>219</size>
+    <md5>859b573edc4a5018a948caab7fd9e642</md5>
+    <crc32>1a305749</crc32>
+    <sha1>40479f5903c34227b2b01a33c5a4574e6efc3971</sha1>
+    <format>JSON</format>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr.html" source="derivative">
+    <hocr_char_to_word_module_version>1.2.0</hocr_char_to_word_module_version>
+    <hocr_char_to_word_hocr_version>1.1.45</hocr_char_to_word_hocr_version>
+    <ocr_parameters>lang-Fraktur;lang-enm;two-pass-disabled;pass-dpi-enabled;autonomous-mode-disabled;binarisation-method-leptonica-sauvola</ocr_parameters>
+    <ocr_module_version>0.0.21</ocr_module_version>
+    <ocr_detected_script>Latin</ocr_detected_script>
+    <ocr_detected_script_conf>0.8627</ocr_detected_script_conf>
+    <ocr_detected_lang>en</ocr_detected_lang>
+    <ocr_detected_lang_conf>1.0000</ocr_detected_lang_conf>
+    <format>hOCR</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_chocr.html.gz</original>
+    <mtime>1690836767</mtime>
+    <size>16213155</size>
+    <md5>dcf5b1128bbfa37d1ce3da8d8425cd70</md5>
+    <crc32>5a2b337b</crc32>
+    <sha1>d03c681232e6d9e6b74ab7d0b6bf357cc254f59e</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr_pageindex.json.gz" source="derivative">
+    <hocr_pageindex_module_version>1.0.0</hocr_pageindex_module_version>
+    <hocr_pageindex_hocr_version>1.1.15</hocr_pageindex_hocr_version>
+    <format>OCR Page Index</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr.html</original>
+    <mtime>1690838129</mtime>
+    <size>4855</size>
+    <md5>92c0d09e327679cde42d1d83d5dbcb4b</md5>
+    <crc32>a7ef4fa1</crc32>
+    <sha1>eb422a8e5fd1e9aae82fc5474b1da9ff7c399237</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr_searchtext.txt.gz" source="derivative">
+    <hocr_fts_text_module_version>1.1.0</hocr_fts_text_module_version>
+    <hocr_fts_text_hocr_version>1.1.15</hocr_fts_text_hocr_version>
+    <word_conf_0_10>696</word_conf_0_10>
+    <word_conf_11_20>433</word_conf_11_20>
+    <word_conf_21_30>627</word_conf_21_30>
+    <word_conf_31_40>856</word_conf_31_40>
+    <word_conf_41_50>1176</word_conf_41_50>
+    <word_conf_51_60>1466</word_conf_51_60>
+    <word_conf_61_70>2228</word_conf_61_70>
+    <word_conf_71_80>3349</word_conf_71_80>
+    <word_conf_81_90>8203</word_conf_81_90>
+    <word_conf_91_100>80304</word_conf_91_100>
+    <format>OCR Search Text</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr.html</original>
+    <mtime>1690838895</mtime>
+    <size>157850</size>
+    <md5>75f5fb7da293a2802ed2dcaaca7a008a</md5>
+    <crc32>7a86932c</crc32>
+    <sha1>bcb1e49f08e89c1ac9a8fa0f883382ecf5dd2201</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_itemimage.png" source="original">
+    <mtime>1690820499</mtime>
+    <size>2586420</size>
+    <md5>815dcba03df02160c96272a2f43e8dbb</md5>
+    <crc32>8083a6e0</crc32>
+    <sha1>d41356c1347834cddf64b58db0ccab686d62d320</sha1>
+    <format>Item Image</format>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_jp2.zip" source="original">
+    <mtime>1690820471</mtime>
+    <size>1483125258</size>
+    <md5>1f8ec383ec8e1a17a976c741a823faa1</md5>
+    <crc32>67053b1b</crc32>
+    <sha1>edaca818aa12d63c0e3deb1f9d5a546912d42509</sha1>
+    <preview-image>n0</preview-image>
+    <format>Single Page Processed JP2 ZIP</format>
+    <filecount>414</filecount>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_lcp.epub" source="derivative">
+    <format>LCP Encrypted EPUB</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1.epub</original>
+    <mtime>1758420767</mtime>
+    <size>188052840</size>
+    <md5>146f30b67792028bf384f3b0542de7e3</md5>
+    <crc32>447b9f6f</crc32>
+    <sha1>418b979a73482f91438d096bc3ac56a5b1137380</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_meta.sqlite" source="original">
+    <mtime>1690820889</mtime>
+    <size>57344</size>
+    <md5>9af929e66da67ae947c9bcd6d97fe7d1</md5>
+    <crc32>cb9dbddb</crc32>
+    <sha1>9bbf6691846421b53b64f8423cdc22f5e2b00ef2</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_meta.xml" source="original">
+    <mtime>1758420873</mtime>
+    <size>4001</size>
+    <md5>245d2aa3f264479f7dfded8c8495ca16</md5>
+    <crc32>6327d053</crc32>
+    <sha1>d642856e9f1b77fc068d562d48a327050dc84388</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_page_numbers.json" source="derivative">
+    <hocr_pagenumber_module_version>1.0.3</hocr_pagenumber_module_version>
+    <hocr_pagenumber_hocr_version>1.1.50</hocr_pagenumber_hocr_version>
+    <hocr_pagenumber_confidence>82</hocr_pagenumber_confidence>
+    <format>Page Numbers JSON</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_hocr.html</original>
+    <mtime>1690839885</mtime>
+    <size>69827</size>
+    <md5>0f0e4950ab5f2f32b322e7dc9f72152c</md5>
+    <crc32>70bca07c</crc32>
+    <sha1>04997506575b6e1aa946675c5700bdc5648d5136</sha1>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_rotations.json" source="original">
+    <mtime>1690820491</mtime>
+    <size>37457</size>
+    <md5>43bc3298499cb1a20e8a8e668ec8149c</md5>
+    <crc32>0ef41f15</crc32>
+    <sha1>35e057d8c39ac12cc2a429775de0e0509fdfb058</sha1>
+    <format>JSON</format>
+  </file>
+  <file name="bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_scandata.xml" source="derivative">
+    <format>Scandata</format>
+    <original>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1_djvu.xml</original>
+    <mtime>1690839885</mtime>
+    <size>143814</size>
+    <md5>8d9b8b3836a25ae2143a109a9005bd9c</md5>
+    <crc32>2fa11db1</crc32>
+    <sha1>0e257c9b0f6d21f3ce9d94267d9d36dbe202d1d8</sha1>
+  </file>
+  <file name="header/header_0000.jp2" source="original">
+    <mtime>1690820512</mtime>
+    <size>347320</size>
+    <md5>984f67c6817b16c631e636fd291fdc8b</md5>
+    <crc32>7fa9c236</crc32>
+    <sha1>6fd38404104e5cf760e2cc64915c4a2fce367a1e</sha1>
+    <format>JPEG 2000</format>
+  </file>
+  <file name="header/header_0001.jp2" source="original">
+    <mtime>1690820503</mtime>
+    <size>1967272</size>
+    <md5>f8d1d81a004be938f45ad3a420865c35</md5>
+    <crc32>ce6081e0</crc32>
+    <sha1>caea543b64022d162e994e9411435631c18522ee</sha1>
+    <format>JPEG 2000</format>
+  </file>
+  <file name="header/header_0002.jp2" source="original">
+    <mtime>1690820508</mtime>
+    <size>535218</size>
+    <md5>c64c6a84ffe157be2ae6938edb61adb8</md5>
+    <crc32>61215db3</crc32>
+    <sha1>67941c7cc9fe46450ab8106390e2a744332bc1d9</sha1>
+    <format>JPEG 2000</format>
+  </file>
+</files>

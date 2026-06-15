@@ -1,0 +1,37 @@
+{
+  "workflow": "principia_english",
+  "status": "sample_fetch_extraction_and_validation_complete",
+  "primary_source": "wikisource_1846_primary",
+  "backup_sources": [
+    "wikisource_1729_primary",
+    "gutenberg_1846_backup",
+    "motte_1729_scan_backup"
+  ],
+  "cached_pages": [
+    {
+      "slug": "book_i_section_ii",
+      "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)/BookI-II",
+      "raw_html": "wikisource_1846_primary/raw_html/book_i_section_ii.html",
+      "raw_wikitext": "wikisource_1846_primary/raw_wikitext/book_i_section_ii.wikitext",
+      "cleaned_text": "wikisource_1846_primary/cleaned_text/book_i_section_ii_clean.txt",
+      "fetch_status": "cached"
+    }
+  ],
+  "extracted_nodes": [
+    {
+      "node_id": "book1_section2_prop01_theorem01",
+      "metadata": "wikisource_1846_primary/extracted_nodes/book1_section2_prop01_theorem01_metadata.json",
+      "validation": "pass",
+      "manual_scan_review": "pending"
+    }
+  ],
+  "source_page_illustrations": [
+    {
+      "source_page": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)/BookI-II",
+      "wikimedia_file": "Principia1846-105.png",
+      "canonical_asset": "assets/images/primary_sources/book1_chapter02/principia1846-105.png",
+      "published_asset": "web/public/assets/primary-sources/book1_chapter02/principia1846-105.png"
+    }
+  ],
+  "notes": "Routine English extraction and source-page illustration lookup now use the Wikisource 1846 digital page layout. Translation attribution remains Andrew Motte 1729. The local Motte scan archive remains the required verification source before public release."
+}

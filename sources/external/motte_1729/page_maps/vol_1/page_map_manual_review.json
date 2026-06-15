@@ -1,0 +1,15 @@
+{
+    "volume":  1,
+    "status":  "not_reviewed",
+    "source_files":  {
+                         "page_numbers":  "page_numbers.json",
+                         "scandata":  "scandata.xml"
+                     },
+    "notes":  [
+                  "This file is reserved for manual mapping between scan page index, printed page number, and Principia nodes.",
+                  "Do not rely only on OCR page numbering before manual review."
+              ],
+    "review_items":  [
+
+                     ]
+}

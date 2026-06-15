@@ -1,0 +1,30 @@
+{
+  "purpose": "Select the PDF source used for page mapping, OCR alignment, quotation verification, and English node extraction.",
+  "text_extraction_priority": [
+    "ocr/vol_*/djvu.txt",
+    "ocr/vol_*/djvu.xml",
+    "ocr/vol_*/hocr.html"
+  ],
+  "canonical_scan_source": {
+    "vol_1": {
+      "preferred_pdf": "vol_1/pdf/motte_1729_vol1.pdf",
+      "preferred_sha256": "91fad6b499d55b871f51a27143892bf21563362974cc3f89b2cc9004e5dd2779",
+      "supplementary_reprint_pdf": "vol_1/raw_pdf/mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+      "supplementary_reprint_sha256": "62293b0a864efaf0db341f2a41e0a8d96ae79dfa6ca88a2663d1c2ebd147a618"
+    },
+    "vol_2": {
+      "preferred_pdf": "vol_2/pdf/motte_1729_vol2.pdf",
+      "preferred_sha256": "2e7854d184a72a0c43f2ec3dc5e48364763fbd2a5a21e3434bff3dab78184fca",
+      "supplementary_reprint_pdf": "vol_2/raw_pdf/mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+      "supplementary_reprint_sha256": "77837eba59a745c14be426dc13df8c9b7f7c72e5daee1cf08fb67621be3e2ae3"
+    }
+  },
+  "evidence_report": "logs/pdf_source_alignment_report.md",
+  "rules": [
+    "Use existing Internet Archive OCR first for search and initial extraction.",
+    "Use vol_*/pdf/motte_1729_vol*.pdf as the canonical scan source for page mapping, OCR alignment, quotation verification, English node extraction, and fallback OCR.",
+    "Treat vol_*/raw_pdf/ as supplementary modern reprint references only.",
+    "Do not mix reprint pagination or Cajori revisions into the 1729 node source.",
+    "Do not overwrite, rename, move, or delete either PDF set."
+  ]
+}

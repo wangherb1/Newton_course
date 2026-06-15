@@ -1,0 +1,48 @@
+---
+import { chapter02, principiaOutline } from '../../data/principiaOutline';
+import { siteRoutes } from '../../data/routes';
+
+const chapters = principiaOutline.filter((group) => group.node_type === 'chapter');
+const chapter02Highlights = chapter02?.children?.slice(0, 10) ?? [];
+---
+
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Course outline</p>
+    <h2>目录概览</h2>
+    <p>全书目录以《原理概要.docx》为骨架，未建设条目保留清晰的目录占位状态。</p>
+  </div>
+  <div class="outline-overview__front">
+    <strong>卷首</strong>
+    <span>8 个定义</span>
+    <span>3 条运动定律</span>
+    <span>6 条定律推论</span>
+  </div>
+  <div class="chapter-card-grid">
+    {chapters.map((chapter) => (
+      <article class:list={['chapter-card', { 'chapter-card--active': chapter.id === 'book1_chapter02' }]}>
+        <p>{chapter.display_id}</p>
+        <h3>{chapter.title_cn}</h3>
+        <span>{chapter.children?.length ?? 0} 个条目</span>
+      </article>
+    ))}
+  </div>
+  <article class="chapter-highlight">
+    <div class="section-heading">
+      <p class="section-kicker">Chapter II</p>
+      <h3>第二章：向心力的确定</h3>
+    </div>
+    <div class="chapter-highlight__nodes">
+      {chapter02Highlights.map((node) => (
+        node.route ? (
+          <a href={node.route}><strong>{node.display_id}</strong><span>{node.title_cn}</span></a>
+        ) : (
+          <div><strong>{node.display_id}</strong><span>{node.title_cn}</span></div>
+        )
+      ))}
+    </div>
+  </article>
+  <div class="section-actions">
+    <a class="button button--blue" href={siteRoutes.outline}>查看完整目录</a>
+  </div>
+</section>

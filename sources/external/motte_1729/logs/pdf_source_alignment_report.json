@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-05-31T14:30:30+08:00",
+  "conclusion": "Use vol_*/pdf/motte_1729_vol*.pdf as the canonical scan source for page mapping, OCR alignment, quotation verification, and English node extraction. Treat vol_*/raw_pdf/ as supplementary modern reprint references only.",
+  "manual_visual_review": [
+    "The user-provided Vol.1 cover identifies a Higher Education Press 2016 edition.",
+    "The cover states that the translations were revised and supplied with a historical and explanatory appendix by Florian Cajori.",
+    "The user-provided PDFs are re-typeset editions, not page-for-page scans of the Internet Archive 1729 source."
+  ],
+  "volumes": [
+    {
+      "volume": 1,
+      "internet_archive_pdf": "vol_1/pdf/motte_1729_vol1.pdf",
+      "user_provided_pdf": "vol_1/raw_pdf/mathematical principles of natural philosophy 英 第一卷扫描.pdf",
+      "counts": {
+        "ia_pdf_pages": 414,
+        "user_provided_pdf_pages": 408,
+        "page_numbers_entries": 414,
+        "scandata_pages": 414,
+        "djvu_objects": 414,
+        "hocr_pageindex_entries": 414
+      },
+      "ia_pdf_scandata_image_dimension_matches": 414,
+      "ia_pdf_scandata_image_dimension_mismatches": [],
+      "internet_archive_direct_alignment": true
+    },
+    {
+      "volume": 2,
+      "internet_archive_pdf": "vol_2/pdf/motte_1729_vol2.pdf",
+      "user_provided_pdf": "vol_2/raw_pdf/mathematical principles of natural philosophy 英 第二卷扫描.pdf",
+      "counts": {
+        "ia_pdf_pages": 543,
+        "user_provided_pdf_pages": 267,
+        "page_numbers_entries": 543,
+        "scandata_pages": 543,
+        "djvu_objects": 543,
+        "hocr_pageindex_entries": 543
+      },
+      "ia_pdf_scandata_image_dimension_matches": 543,
+      "ia_pdf_scandata_image_dimension_mismatches": [],
+      "internet_archive_direct_alignment": true
+    }
+  ]
+}

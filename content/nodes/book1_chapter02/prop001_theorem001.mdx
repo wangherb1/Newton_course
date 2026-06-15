@@ -1,0 +1,116 @@
+---
+id: principia-book1-chapter02-prop001-theorem001
+book: 1
+part: 第一卷 物体的运动
+chapter_id: book1_chapter02
+chapter_title: 第二章 向心力的确定
+node_type: proposition_theorem
+node_number: prop001_theorem001
+display_id: 命题1 定理1
+title_cn: 仅受向心力作用的物体与固定力心的连线扫面积速度恒定
+short_title: 扫面积速度恒定
+title_en: The areas described by radii drawn to an immovable centre of force are proportional to the times
+status: sample_draft
+sample_page: true
+review_panel:
+  visible: true
+  mode: internal_review
+chapter_intro:
+  visible: true
+  source: teacher_manuscript
+source_status:
+  english_wikisource_1846: extracted_from_primary_pending_review
+  english_wikisource_1729_reference: retained_for_comparison
+  english_gutenberg_1846_backup: not_used
+  motte_1729_scan_backup: not_used_for_page
+  teacher_translation: extracted_from_teacher_docx_pending_review
+  modern_explanation: extracted_from_teacher_latex_docx_pending_review
+  figures: reconstructed_or_pending_review
+  demo: ellipse_equal_area_demo_pending_review
+  questions: retained_pending_review
+  graph: retained_pending_review
+  comments: placeholder_retained_pending_review
+source_files:
+  teacher_docx: sources/raw/liao_teacher/chapters/chapter_02/牛顿自然哲学的数学原理第2章.docx
+  teacher_latex_docx: sources/raw/liao_teacher/chapters/chapter_02/牛顿自然哲学的数学原理第2章 - latex.docx
+  english_primary_url: https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)/BookI-II
+  english_primary_cache_raw_html: sources/external/principia_english/wikisource_1846_primary/raw_html/book_i_section_ii.html
+  english_primary_cache_clean: sources/external/principia_english/wikisource_1846_primary/extracted_nodes/book1_section2_prop01_theorem01_en_clean.md
+  english_reference_wikisource_1729: https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Book_1/Section_2
+  english_backup_gutenberg_1846: https://www.gutenberg.org/ebooks/76404
+visual:
+  theme_key: chapter02_centripetal_force
+  symbol: 力心 / 面积速度 / 轨道
+  cover_image: assets/images/heroes/book1_chapter02/prop001_theorem001_hero_ai_v1.png
+  hero_visual_mode: ai_image_only
+  demo_component: AreaLawDemo
+  demo_html: web/public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+  demo_prompt: web/public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.prompt.md
+  teacher_translation_figure: assets/images/teacher_manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png
+  modern_explanation_figure: assets/images/teacher_manuscripts/book1_chapter02/prop001_theorem001_modern_figure_2_1.png
+graph:
+  depends_on:
+    - principia-law-001
+    - principia-law-corollary-001
+    - principia-book1-chapter01-lemma003-corollary004
+  used_by:
+    - principia-book1-chapter02-prop002-theorem002
+    - principia-book1-chapter02-prop004-theorem004
+    - principia-book1-chapter02-prop006-theorem005
+  related_nodes:
+    - principia-book1-chapter02-prop001-corollary001
+    - principia-book1-chapter02-prop001-corollary002
+    - principia-book1-chapter02-prop001-corollary003
+    - principia-book1-chapter02-prop001-corollary004
+    - principia-book1-chapter02-prop001-corollary005
+    - principia-book1-chapter02-prop001-corollary006
+questions:
+  - qid: q_ch2_prop1_core_problem
+  - qid: q_ch2_prop1_newton_method
+  - qid: q_ch2_prop1_modern_method
+comments:
+  enabled: false
+  provider: placeholder
+rights:
+  teacher_attribution: 廖日东，北京理工大学
+  digital_editor: YAO / 项目助教团队
+  english_source_license_note: Wikisource 1846 digital transcription of the Andrew Motte translation, public-domain source, pending project-level citation normalization
+  public_release_status: internal_sample_pending_review
+last_updated: 2026-06-01
+---
+
+# 命题1 定理1：扫面积速度恒定
+
+## 第二章导读
+
+根据物体的运动确定物体的受力，或者反过来，根据物体的受力推测确定物体的运动，这就是今天我们熟悉的运动学和动力学的核心内容。在本章中，牛顿首先给出了作环绕运动的物体，如果只受到指向一个不动点的力（向心力）的作用时，物体的运动应该具有的规律，
+
+在这里分析的环绕运动，都是满足开普勒面积定律的运动，即运动物体与固定中心的连线扫面积速度是恒定的
+
+## Newton 原文：Andrew Motte 1729 英译本
+
+页面显示文本来自 `sources/external/principia_english/wikisource_1846_primary/extracted_nodes/book1_section2_prop01_theorem01_en_clean.md`。数字转录主源使用 Wikisource 1846 页面；译文仍归属 Andrew Motte 1729 英译本。切片从 `PROPOSITION I. THEOREM I.` 开始，在 `Cor. 1.` 之前结束。推论 I-VI 仅作为相关节点占位。
+
+## 廖日东老师中文译文 / 几何证明
+
+作环绕运动的物体，如果仅受到指向一个不动点的力（向心力）的作用，则物体与不动点的连线始终位于同一平面内，且连线扫过的面积与所用时间成正比。
+
+证明：
+
+设想将时间分为相等的时间段，在第一个时间段里物体在其惯性力作用下沿直线AB运动。如果没有受到妨碍，在第二个时间段里，(由定律I)物体将继续沿直线Bc运动到c，且Bc等于AB；由物体向中心作半径AS，BS，cS，则半径扫过面积ASB，BSc相等。
+
+但是，假设当物体到达B时，一个向心力即刻施以大的冲击作用，迫使其偏离直线Bc，转而沿直线BC运动。作cC平行于BS，与BC相交于C，则在第二个时间段末尾，(由定律推论I)物体将出现在C，与三角形ASB处于同一平面。连接SC，由于SB与Cc平行，三角形SBC与三角形SBc面积相等，因此也与三角形SAB面积相等。
+
+根据同样的理由，如果向心力依次作用于C，D，E等点，将使物体在每一个时间段内经过直线CD，DE，EF等，它们都处于同一平面。而且三角形SCD的面积等于三角形SBC的面积，SDE的面积等于SCD的面积，SEF的面积等于SDE的面积。所以，在相同时间段内，在不动平面上扫过的面积总相等；而且，通过叠加，这些面积的任意和SADS，SAFS都分别正比于扫出它们的时间。
+
+现在，令这些三角形的数目增加，使其底边长无限减小，(由引理3推论4)它们的最终轮廓ADF将成为一条曲线：即向心力连续牵引物体偏离该曲线的切线；任意面积SADS，SAFS总是正比于扫出它们所用的（有限）时间的，在此极限情形下，这些面积仍与所用时间成正比。
+
+证毕。
+
+## 现代微积分证明：极坐标方法
+
+页面保守保留老师稿件中的叙述段落。公式优先从老师提供的 LaTeX 版 Word 稿件录入，原始 Word 内嵌对象用于视觉回查；现已回填式（2.1）至（2.6），并按稿件相对位置接入带图题的图2.1。公式仍需结合网页渲染结果人工校对。
+
+## 图示与动态演示
+
+网页组件：`AreaLawDemo`，实际展示文件为 `web/public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html`。演示以椭圆焦点为固定力心，按相等时间间隔生成轨道点，呈现近焦点处连线较短而转角较大、远焦点处连线较长而转角较小、各段焦点扫过面积相等的关系；该扩展模块仍待人工审阅。

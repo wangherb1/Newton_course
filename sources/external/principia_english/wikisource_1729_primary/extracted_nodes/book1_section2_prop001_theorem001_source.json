@@ -1,0 +1,24 @@
+{
+  "node_id": "principia-book1-chapter02-prop001-theorem001",
+  "work": "The Mathematical Principles of Natural Philosophy",
+  "edition": "1729 Andrew Motte English translation",
+  "source": "Wikisource",
+  "source_priority": "primary",
+  "source_url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Book_1/Section_2",
+  "page_title": "Book I, Section II: Of the invention of centripetal forces",
+  "extract_start": "PROPOSITION I. THEOREM I.",
+  "extract_end_exclusive": "Cor. 1.",
+  "raw_cache": "../raw_html/book1_section2.html",
+  "raw_node": "book1_section2_prop001_theorem001_en_raw.md",
+  "clean_node": "book1_section2_prop001_theorem001_en_clean.md",
+  "fetched_at": "2026-05-31T15:07:41+08:00",
+  "prepared_at": "2026-05-31T16:20:00+08:00",
+  "manual_review_status": "pending_manual_scan_comparison",
+  "scan_reference": {
+    "volume": "vol_1",
+    "ia_scan_leaf": "102-103",
+    "ia_archive_pdf_page_1_based": "103-104",
+    "printed_page": "57-58"
+  },
+  "notes": "Page display slice stops before Cor. 1. The previously extracted wider node remains available for later corollary pages."
+}

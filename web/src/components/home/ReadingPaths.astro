@@ -1,0 +1,20 @@
+---
+import { readingPaths } from '../../data/readingPaths';
+---
+
+<section class="home-section" id="learning-paths">
+  <div class="section-heading">
+    <p class="section-kicker">Reading paths</p>
+    <h2>推荐学习路径</h2>
+  </div>
+  <div class="home-grid home-grid--three">
+    {readingPaths.map((path) => (
+      <article class="home-card reading-path-card">
+        <p class="reading-path-card__label">{path.label}</p>
+        <h3>{path.title}</h3>
+        <p class="reading-path-card__nodes">{path.nodes}</p>
+        <p>{path.description}</p>
+      </article>
+    ))}
+  </div>
+</section>

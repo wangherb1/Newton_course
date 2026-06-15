@@ -1,0 +1,35 @@
+{
+  "version": "0.0",
+  "edges": [
+    {
+      "from": "principia-law-001",
+      "to": "principia-book1-chapter02-prop001-theorem001",
+      "type": "depends_on"
+    },
+    {
+      "from": "principia-law-corollary-001",
+      "to": "principia-book1-chapter02-prop001-theorem001",
+      "type": "depends_on"
+    },
+    {
+      "from": "principia-book1-chapter01-lemma003-corollary004",
+      "to": "principia-book1-chapter02-prop001-theorem001",
+      "type": "depends_on"
+    },
+    {
+      "from": "principia-book1-chapter02-prop001-theorem001",
+      "to": "principia-book1-chapter02-prop002-theorem002",
+      "type": "used_by"
+    },
+    {
+      "from": "principia-book1-chapter02-prop001-theorem001",
+      "to": "principia-book1-chapter02-prop004-theorem004",
+      "type": "used_by"
+    },
+    {
+      "from": "principia-book1-chapter02-prop001-theorem001",
+      "to": "principia-book1-chapter02-prop006-theorem005",
+      "type": "used_by"
+    }
+  ]
+}

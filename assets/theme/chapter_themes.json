@@ -1,0 +1,17 @@
+{
+  "chapter01_limits": {
+    "label": "第一章：初始比与最终比法",
+    "symbol": "极限 / 割线 / 曲边图形",
+    "primaryColor": "#123D35"
+  },
+  "chapter02_centripetal_force": {
+    "label": "第二章：向心力的确定",
+    "symbol": "力心 / 面积速度 / 轨道",
+    "primaryColor": "#0B1F3A"
+  },
+  "chapter03_conics_focus": {
+    "label": "第三章：环绕焦点的圆锥曲线运动",
+    "symbol": "圆锥曲线 / 焦点 / 平方反比律",
+    "primaryColor": "#2B2142"
+  }
+}

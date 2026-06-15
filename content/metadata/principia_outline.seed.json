@@ -1,0 +1,2041 @@
+{
+  "generated_at": "2026-06-01T15:45:41+08:00",
+  "source_file": "sources/raw/liao_teacher/outline/原理概要.docx",
+  "extraction_mode": "conservative_heading_candidates",
+  "needs_manual_review": true,
+  "source_paragraph_count": 352,
+  "candidate_count": 337,
+  "confirmed_nodes": [
+    {
+      "id": "principia-book1-chapter02-prop001-theorem001",
+      "source_line": 54,
+      "node_type": "proposition_theorem",
+      "text": "命题1 定理1：仅受向心力作用的物体与固定力心的连线扫面积速度恒定。",
+      "review_status": "sample_page_created_pending_manual_review"
+    }
+  ],
+  "items": [
+    {
+      "source_line": 4,
+      "candidate_type": "定义",
+      "text": "定义",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 5,
+      "candidate_type": "定义",
+      "text": "定义1 质量",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 6,
+      "candidate_type": "定义",
+      "text": "定义2 动量",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 7,
+      "candidate_type": "定义",
+      "text": "定义3 惯性",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 8,
+      "candidate_type": "定义",
+      "text": "定义4 外力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 9,
+      "candidate_type": "定义",
+      "text": "定义5 向心力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 10,
+      "candidate_type": "定义",
+      "text": "定义6 向心力之绝对量",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 11,
+      "candidate_type": "定义",
+      "text": "定义7 向心力之加速量",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 12,
+      "candidate_type": "定义",
+      "text": "定义8 向心力之运动量",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 13,
+      "candidate_type": "公理",
+      "text": "公理和运动定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 14,
+      "candidate_type": "第一定律",
+      "text": "第一定律：惯性定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 15,
+      "candidate_type": "第二定律",
+      "text": "第二定律：动量变化定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 16,
+      "candidate_type": "第三定律",
+      "text": "第三定律：作用与反作用定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 17,
+      "candidate_type": "推论",
+      "text": "推论1：运动的合成法则（平行四边形）",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 18,
+      "candidate_type": "推论",
+      "text": "推论2：力的合成法则",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 19,
+      "candidate_type": "推论",
+      "text": "推论3：方向相同（相反）的运动合成（动量守恒）",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 20,
+      "candidate_type": "推论",
+      "text": "推论4：两个或多个物体的公共质心的运动状态",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 21,
+      "candidate_type": "推论",
+      "text": "推论5：惯性系的运动状态对其中物体之间的运动没有影响",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 22,
+      "candidate_type": "推论",
+      "text": "推论6：受相同加速力作用下多个物体间的相对运动不变。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 23,
+      "candidate_type": "第一章",
+      "text": "第一章 用于证明后续命题的数量首末比法",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 24,
+      "candidate_type": "引理",
+      "text": "引理1：极限相等之判别方法",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 25,
+      "candidate_type": "引理",
+      "text": "引理2：内外接等分平行四边形面积和之极限与曲边图形面积相等",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 26,
+      "candidate_type": "引理",
+      "text": "引理3：内外接不等分平行四边形面积和之极限与曲边图形面积相等",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 27,
+      "candidate_type": "推论",
+      "text": "推论1：趋于零的平行四边形总和与曲边图形重合",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 28,
+      "candidate_type": "推论",
+      "text": "推论2：以弦为边的直多边形极限与曲边图形重合",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 29,
+      "candidate_type": "推论",
+      "text": "推论3：以弧上切线为边的直多边形极限与曲边图形重合",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 30,
+      "candidate_type": "推论",
+      "text": "推论4：上述直多边形的极限是曲边图形而不是直边图形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 31,
+      "candidate_type": "引理",
+      "text": "引理4：关于可分割为一一对应等相似比内接平行四边形的两个图形面积比之计算",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 32,
+      "candidate_type": "推论",
+      "text": "推论：任意两个量之比等于二者按一一对应相似划分所得序列和的极限之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 33,
+      "candidate_type": "引理",
+      "text": "引理5：无论曲直，相似图形对应边长之比相同，图形面积比为对应边长比的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 34,
+      "candidate_type": "引理",
+      "text": "引理6：曲线上光滑点处的切线与趋零割线的夹角趋于零",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 35,
+      "candidate_type": "引理",
+      "text": "引理7：极限条件下曲线上光滑点处的弧长、弦长和切线段长两两间比值相等",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 36,
+      "candidate_type": "推论",
+      "text": "推论1：关于极限条件下弧长、切线段的其它等价线段之一",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 37,
+      "candidate_type": "推论",
+      "text": "推论2：关于极限条件下弧长、切线段的其它等价线段之二",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 38,
+      "candidate_type": "推论",
+      "text": "推论3：极限分析中上述等价的几种线段可以互换",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 39,
+      "candidate_type": "引理",
+      "text": "引理8：极限条件下曲线上光滑点处的三个全等三角形（切线、弧线、割线三角形）",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 40,
+      "candidate_type": "推论",
+      "text": "推论：极限分析时引理中的三个三角形可以互换",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 41,
+      "candidate_type": "引理",
+      "text": "引理9：极限条件下两个由非切线段与曲线围成的三角形相似，面积比等于边长比的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 42,
+      "candidate_type": "引理",
+      "text": "引理10：零初速物体受力，初始极短时间内运动距离正比于时间的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 43,
+      "candidate_type": "推论",
+      "text": "推论1：有无作用力时物体经过的距离偏差近似正比于产生这些偏差的时间的平方。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 44,
+      "candidate_type": "推论",
+      "text": "推论2：相同间隔时间内均匀作用力所产生的位移之差，是力和时间平方的乘积。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 45,
+      "candidate_type": "推论",
+      "text": "推论3：作用力与运动最初发生的位移成正比，与经历时间的平方成反比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 46,
+      "candidate_type": "推论",
+      "text": "推论4：经历时间的平方与运动最初发生的位移成正比，与作用力成反比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 47,
+      "candidate_type": "引理",
+      "text": "引理11：有限曲率点上，趋于零割线的与切线夹角的弦长正比于割线长的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 48,
+      "candidate_type": "推论",
+      "text": "推论1：第三边之比也等于切线之比，弧线之比以及正弦线之比的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 49,
+      "candidate_type": "推论",
+      "text": "推论2：弧线的正矢之比也等于上述各比的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 50,
+      "candidate_type": "推论",
+      "text": "推论3：正矢与物体以给定速度经过弧长的时间的平方成正比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 51,
+      "candidate_type": "推论",
+      "text": "推论4：引理中两个三角形面积之比为切线边长之比的立方，是角弦边长比的3/2次方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 52,
+      "candidate_type": "推论",
+      "text": "推论5：曲边三角形和弓形面积是都正比于切线段、弧长和弦长的立方（原书为平方）",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 53,
+      "candidate_type": "第二章",
+      "text": "第二章 向心力的确定",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 54,
+      "candidate_type": "命题",
+      "text": "命题1 定理1：仅受向心力作用的物体与固定力心的连线扫面积速度恒定。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 55,
+      "candidate_type": "推论",
+      "text": "推论1：物体在轨道某点处的速度与力心到轨道在该处切线的距离成反比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 56,
+      "candidate_type": "推论",
+      "text": "推论2：力心的确定",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 57,
+      "candidate_type": "推论",
+      "text": "推论3：轨道上两点处受力之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 58,
+      "candidate_type": "推论",
+      "text": "推论4：向心力与轨道正矢的关系",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 59,
+      "candidate_type": "推论",
+      "text": "推论5：向心力与重力之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 60,
+      "candidate_type": "推论",
+      "text": "推论6：力心做匀速运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 61,
+      "candidate_type": "命题",
+      "text": "命题2 定理2：命题1的逆命题",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 62,
+      "candidate_type": "推论",
+      "text": "推论1：无阻力空间运动物体与固定点连线扫过面积不是正比于时间的情况",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 63,
+      "candidate_type": "推论",
+      "text": "推论2：有阻力介质中扫面积加速度大于零",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 64,
+      "candidate_type": "命题",
+      "text": "命题3 定理3：物体与任意运动的物体连线扫面积速度恒定的受力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 65,
+      "candidate_type": "推论",
+      "text": "推论1：物体与另一物体连线扫面积速度恒定时的向心力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 66,
+      "candidate_type": "推论",
+      "text": "推论2：扫过面积近似恒定的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 67,
+      "candidate_type": "推论",
+      "text": "推论3：推论2的反命题",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 68,
+      "candidate_type": "推论",
+      "text": "推论4：扫过面积速度与常数相差很大时的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 69,
+      "candidate_type": "命题",
+      "text": "命题4 定理4：不同匀速圆周运动的向心力正比于等时间经过弧长的平方除于半径",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 70,
+      "candidate_type": "推论",
+      "text": "推论1：匀速圆周运动的向心力正比于速度的平方除于半径",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 71,
+      "candidate_type": "推论",
+      "text": "推论2：匀速圆周运动的向心力正比于半径除以环绕周期的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 72,
+      "candidate_type": "推论",
+      "text": "推论3：周期相同，则向心力正比于半径，反之亦然",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 73,
+      "candidate_type": "推论",
+      "text": "推论4：如果周期与速度都正比于半径的平方根则向心力相等，反之亦然 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 74,
+      "candidate_type": "推论",
+      "text": "推论5：如果周期正比于半径，则速度是恒定的，而向心力将反比于半径，反之亦然",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 75,
+      "candidate_type": "推论",
+      "text": "推论6：如果周期正比于半径的3/2次方，则向心力将反比于半径的平方，反之亦然 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 76,
+      "candidate_type": "推论",
+      "text": "推论7：如果周期正比于半径的n次方，向心力将反比于半径的2n-1次方，反之亦然 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 77,
+      "candidate_type": "推论",
+      "text": "推论8：物体环绕任何相似轨道运动的情形与圆轨道的对比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 78,
+      "candidate_type": "推论",
+      "text": "推论9：物体匀速圆周运动与相同大小的力直线下落运动的关系",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 79,
+      "candidate_type": "命题",
+      "text": "命题5 问题1：已知向心力作用下物体的运动轨迹和各点速度欲求向心力中心",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 80,
+      "candidate_type": "命题",
+      "text": "命题6 定理5：无阻力空间中物体沿任意轨道环绕不动点运动的向心力。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 81,
+      "candidate_type": "推论",
+      "text": "推论1：轨道已知时向心力的极限表达之一。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 82,
+      "candidate_type": "推论",
+      "text": "推论2：轨道已知时向心力的极限表达之二",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 83,
+      "candidate_type": "推论",
+      "text": "推论3：轨道是圆向心力的极限表达之一",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 84,
+      "candidate_type": "推论",
+      "text": "推论4：轨道是圆向心力的极限表达之二",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 85,
+      "candidate_type": "推论",
+      "text": "推论5：总结任意轨道下向心力定律表达",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 86,
+      "candidate_type": "命题",
+      "text": "命题7 问题2：物体沿圆周运动，力心为圆内任意一点，求向心力定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 87,
+      "candidate_type": "推论",
+      "text": "推论1：力心位于圆周时，向心力反比于物体到力心长度的5次方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 88,
+      "candidate_type": "推论",
+      "text": "推论2：同轨道、同周期但不同力心的圆周运动向心力之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 89,
+      "candidate_type": "推论",
+      "text": "推论3：同轨道、同周期但不同力心的环绕运动向心力之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 90,
+      "candidate_type": "命题",
+      "text": "命题8 问题3：物体沿半圆周运动，力心位于无穷远处，求向心力定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 91,
+      "candidate_type": "命题",
+      "text": "命题9 问题4：物体沿等角螺旋线运动，力心为螺旋线中心，求向心力的规律 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 92,
+      "candidate_type": "引理",
+      "text": "引理12：椭圆或双曲线的所有平行于共轭直径的外切平行四边形面积均相等",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 93,
+      "candidate_type": "命题",
+      "text": "命题10 问题5：物体沿椭圆运动，力心为椭圆中心，求向心力定律。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 94,
+      "candidate_type": "推论",
+      "text": "推论1：以中心为力心的椭圆运动，向心力与物体到椭圆中心距离成正比，反之亦然",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 95,
+      "candidate_type": "推论",
+      "text": "推论2：沿具有公共中心的椭圆运动，如果仅受指向该中心的作用力，运动周期相同 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 96,
+      "candidate_type": "第三章",
+      "text": "第三章 环绕焦点的圆锥曲线运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 97,
+      "candidate_type": "命题",
+      "text": "命题11 问题6：物体沿椭圆运动，力心为焦点，求向心力定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 98,
+      "candidate_type": "命题",
+      "text": "命题12 问题7：物体沿双曲线运动，力心为焦点，求向心力定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 99,
+      "candidate_type": "引理",
+      "text": "引理13：抛物线上的任意一点的通径是该点到焦点距离的4倍",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 100,
+      "candidate_type": "引理",
+      "text": "引理14：抛物线焦点到切线的距离是焦点到切点距离与顶点距离的比例中项。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 101,
+      "candidate_type": "推论",
+      "text": "推论1：焦点到切点与到切线距离之比的平方等于焦点到切点与到顶点距离之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 102,
+      "candidate_type": "推论",
+      "text": "推论2：焦点到切线距离平方正比于焦点到切点的距离",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 103,
+      "candidate_type": "推论",
+      "text": "推论3：焦点到切线所引垂线的垂足必在顶点的切线上。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 104,
+      "candidate_type": "命题",
+      "text": "命题13 问题8：物体沿抛物线运动，力心为焦点，求向心力定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 105,
+      "candidate_type": "推论",
+      "text": "推论1：平方反比向心力作用下，物体将沿圆锥曲线运动，力心是焦点，反之亦然。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 106,
+      "candidate_type": "推论",
+      "text": "推论2：平方反比向心力作用下物体沿圆锥曲线运动时通径的计算",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 107,
+      "candidate_type": "命题",
+      "text": "命题14 定理6：平方反比向心力作用下物体轨迹的通径将正比于扫面积速度的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 108,
+      "candidate_type": "推论",
+      "text": "推论：物体轨道椭圆的总面积正比于通径的平方根与周期的乘积",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 109,
+      "candidate_type": "命题",
+      "text": "命题15 定理7：平方反比向心力作用下物体椭圆运动的周期正比于其长轴的3/2次方。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 110,
+      "candidate_type": "推论",
+      "text": "推论：椭圆运动的周期与直径等于椭圆长轴的圆周运动的周期相等。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 111,
+      "candidate_type": "命题",
+      "text": "命题16 定理8：物体速度反比于焦点到切线垂线的长度，正比于轨迹通径的平方根",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 112,
+      "candidate_type": "推论",
+      "text": "推论1：通径正比于垂线的平方和速度的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 113,
+      "candidate_type": "推论",
+      "text": "推论2：离焦点最近和最远处的速度反比于物体与焦点的距离，正比于通径的平方根",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 114,
+      "candidate_type": "推论",
+      "text": "推论3：离焦点最近和最远处的速度与物体做半径与该距离相等的圆周运动的速度关系",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 115,
+      "candidate_type": "推论",
+      "text": "推论4：椭圆运动至短轴与椭圆交点处的速度，等于半径为椭圆长半轴的圆周运动速度。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 116,
+      "candidate_type": "推论",
+      "text": "推论5：焦点和通径相等时，物体的运动速度反比于由焦点到物体所处位置的切线距离。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 117,
+      "candidate_type": "推论",
+      "text": "推论6：物体沿抛物线运动、椭圆运动、双曲线运动时速度变化的对比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 118,
+      "candidate_type": "推论",
+      "text": "推论7：物体沿抛物线运动、椭圆运动、双曲线运动时速度与圆周运动速度对比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 119,
+      "candidate_type": "推论",
+      "text": "推论8：物体运动到距焦点半通径时的速度，与沿半径是半通径的圆周运动速度之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 120,
+      "candidate_type": "推论",
+      "text": "推论9：沿这一圆周运动的物体与沿其它任意圆周运动的物体的速度之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 121,
+      "candidate_type": "命题",
+      "text": "命题17 问题9：平方反比向心力大小已知，速度大小和方向已知，求物体的运动轨迹。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 122,
+      "candidate_type": "推论",
+      "text": "推论1：对每一种圆锥曲线，由顶点，通径和一个焦点可以求得另一个焦点。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 123,
+      "candidate_type": "推论",
+      "text": "推论2：已知物体在顶点的速度，则可以求出轨迹。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 124,
+      "candidate_type": "推论",
+      "text": "推论3：物体受某种排斥力作用而偏离圆锥曲线轨道，之后所循新轨道也可以求出。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 125,
+      "candidate_type": "推论",
+      "text": "推论4：物体连续受到外力干扰可以通过该力在某些点的变化推出整个序列中的影响",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 126,
+      "candidate_type": "第四章",
+      "text": "第四章 已知焦点求椭圆、抛物线和双曲线轨道",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 127,
+      "candidate_type": "引理",
+      "text": "引理15：关于椭圆或双曲线切线与长轴的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 128,
+      "candidate_type": "命题",
+      "text": "命题18 问题10：已知一个焦点和主轴长，过给定点作椭圆或双曲线与给定直线相切",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 129,
+      "candidate_type": "命题",
+      "text": "命题19 问题11：由一个已知焦点作抛物线，使之通过给定点并与给定直线相切",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 130,
+      "candidate_type": "命题",
+      "text": "命题20 问题12：由一个已知焦点，作圆锥曲线使之通过给定点并与给定直线相切",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 131,
+      "candidate_type": "引理",
+      "text": "引理16：给定三个点向第四点所作三条直线两两长度差，即可以确定这个未知点的位置",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 132,
+      "candidate_type": "命题",
+      "text": "命题21 问题13：由一个已知焦点作圆锥曲线使之通过已知点并与已知直线相切",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 133,
+      "candidate_type": "第五章",
+      "text": "第五章 未知焦点怎样求轨道",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 134,
+      "candidate_type": "引理",
+      "text": "引理17：圆锥曲线上一点向内接四边形四边按照给定的角度所作四条线段的关系",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 135,
+      "candidate_type": "引理",
+      "text": "引理18：以定角度和比例关系向四边形作四条线的点轨迹是过四顶点的圆锥曲线",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 136,
+      "candidate_type": "推论",
+      "text": "推论：以定角度向三条直线作直线使任意两条长度乘积与第三条长度平方之比不变",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 137,
+      "candidate_type": "引理",
+      "text": "引理19：求向已知四条直线以给定角度作直线段使两段乘积与两段乘积等于给定值的点",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 138,
+      "candidate_type": "推论",
+      "text": "推论1：可以在P的轨迹上任意一点D作切线",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 139,
+      "candidate_type": "推论",
+      "text": "推论2：连续变化角度大小即可求出点P的轨迹。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 140,
+      "candidate_type": "引理",
+      "text": "引理20：平行四边形两个对角点在圆锥曲线上，圆锥曲线上一点与平行四边形的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 141,
+      "candidate_type": "推论",
+      "text": "推论1：圆锥曲线上一点的切线的性质",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 142,
+      "candidate_type": "推论",
+      "text": "推论2：推论1的逆命题",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 143,
+      "candidate_type": "推论",
+      "text": "推论3：一个圆锥曲线和另一个圆锥曲线不可能交于4个以上的点",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 144,
+      "candidate_type": "引理",
+      "text": "引理21：通过给定两点的圆锥曲线的作法",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 145,
+      "candidate_type": "命题",
+      "text": "命题22 问题14：作圆锥曲线使之通过5个给定点",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 146,
+      "candidate_type": "推论",
+      "text": "推论1：关于作圆锥曲线一点处的切线。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 147,
+      "candidate_type": "推论",
+      "text": "推论2：像在引理19推论中那样求出圆锥曲线的中心、直径和通径。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 148,
+      "candidate_type": "命题",
+      "text": "命题23 问题15：作圆锥曲线使之通过4个给定点，并与1条给定直线相切。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 149,
+      "candidate_type": "命题",
+      "text": "命题24 问题16：作圆锥曲线使之通过3个给定点，并与2条已知直线相切。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 150,
+      "candidate_type": "引理",
+      "text": "引理22：关于将图形变换成同类型的另一个图形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 151,
+      "candidate_type": "命题",
+      "text": "命题25 问题17：作圆锥曲线使之通过2个给定点，并与3条已知直线相切。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 152,
+      "candidate_type": "命题",
+      "text": "命题26 问题18：作圆锥曲线使之通过1个给定点，并与4条已知直线相切。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 153,
+      "candidate_type": "引理",
+      "text": "引理23：两条线段的一端、方向及长度之比不变，则分另两端连线为固定比的点共线。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 154,
+      "candidate_type": "引理",
+      "text": "引理24：圆锥曲线三条切线中两条平行且位置固定，与二者平行的半径与它们的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 155,
+      "candidate_type": "引理",
+      "text": "引理25：平行四边形四条边与圆锥曲线相切，这四条切线和第五条切线的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 156,
+      "candidate_type": "命题",
+      "text": "命题27 问题19：作圆锥曲线使之与5条已知直线相切。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 157,
+      "candidate_type": "引理",
+      "text": "引理26：给定三条互不平行直线以及一个三角形，则三角形各顶点总可以位于一直线上。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 158,
+      "candidate_type": "命题",
+      "text": "命题28 问题20：作类型和大小已知的圆锥曲线，使给定部分介于给定三条直线之间。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 159,
+      "candidate_type": "引理",
+      "text": "引理27：作给定四边形，使其顶点分别位于四条既不互相平行又不交于一点的直线。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 160,
+      "candidate_type": "命题",
+      "text": "命题29 问题21：作圆锥曲线使其被4条直线分割成顺序、类型和比例给定的部分。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 161,
+      "candidate_type": "第六章",
+      "text": "第六章 怎样求已知轨道上的运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 162,
+      "candidate_type": "命题",
+      "text": "命题30 问题22：求沿抛物线运动的物体在任意给定时刻的位置",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 163,
+      "candidate_type": "推论",
+      "text": "推论1：物体由顶点到给定点的时间和到焦点处主轴垂线与抛物线交点所用时间之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 164,
+      "candidate_type": "推论",
+      "text": "推论2：顶点焦点和给定点所共圆随给定点运动，圆心速度与物体在顶点速度之比为3/8",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 165,
+      "candidate_type": "推论",
+      "text": "推论3：物体由顶点出发经过任意弧长所用的时间。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 166,
+      "candidate_type": "引理",
+      "text": "引理28：任意直线分割的卵形面积不能用求解有限项和有限维的方程（组）方法求出",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 167,
+      "candidate_type": "推论",
+      "text": "推论：焦点与物体连线扫过的椭圆面积不能由几何有理曲线作图得到",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 168,
+      "candidate_type": "命题",
+      "text": "命题31 问题23：求指定时刻沿已知椭圆运动的物体的位置",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 170,
+      "candidate_type": "附注",
+      "text": "附注关于前述问题的近似求解法",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 171,
+      "candidate_type": "第七章",
+      "text": "第七章 物体的直线上升或直线下降运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 172,
+      "candidate_type": "命题",
+      "text": "命题32 问题24：求平方反比向心力作用下物体在给定时间内沿直线下落的距离",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 173,
+      "candidate_type": "命题",
+      "text": "命题33 定理9：落体速度与环绕以主轴顶点为中心二者距离为半径的圆周运动速度之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 174,
+      "candidate_type": "推论",
+      "text": "推论1：当点主轴顶点和焦点重合的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 175,
+      "candidate_type": "推论",
+      "text": "推论2：做圆周运动的物体，当其运动变为竖直向上，可上升到距离中心两倍的高度",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 176,
+      "candidate_type": "命题",
+      "text": "命题34 定理10：如果图形BED为抛物线，则落体在任意位置C处的速度等于物体以间隔BC的一半关于中心B作匀速圆周运动的速度。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 177,
+      "candidate_type": "命题",
+      "text": "命题35 定理11：在相同的假设下，不定半径SD所扫过的面积DES，等于物体以图形DES的半通径为半径，关于中心S作匀速圆周运动在相同的时间里扫过的面积。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 178,
+      "candidate_type": "命题",
+      "text": "命题36 问题25：求物体从力心上方某点以零初速下落给定距离所需的时间",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 179,
+      "candidate_type": "命题",
+      "text": "命题37 问题26：求物体从力心上方某点以一初速度上升或下落给定距离需的时间",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 180,
+      "candidate_type": "命题",
+      "text": "命题38 定理12：正比向心力作用下，物体下落时间速度及距离正比于弧长、正弦和正矢",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 181,
+      "candidate_type": "推论",
+      "text": "推论1：一个物体下落至力心，与另一个物体沿四分之一圆弧绕力心旋转的时间相同",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 182,
+      "candidate_type": "推论",
+      "text": "推论2：无论从哪里开始下落，物体到达中心的时间都是相等的",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 183,
+      "candidate_type": "命题",
+      "text": "命题39 问题27：向心力已知且可积，求直线升降物体到不同处的速度和时间，或反之。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 184,
+      "candidate_type": "推论",
+      "text": "推论1：关于受均匀向心力作用物体与受任意力作用物体的对比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 185,
+      "candidate_type": "推论",
+      "text": "推论2：物体从一位置向上或向下抛出速度已知，由向心力定律可以求出任意位置速度",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 186,
+      "candidate_type": "推论",
+      "text": "推论3：物体从抛出位置到达任意位置所需时间也可以求出",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 187,
+      "candidate_type": "第八章",
+      "text": "第八章 受任意向心力作用下物体运动轨道的确定",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 188,
+      "candidate_type": "命题",
+      "text": "命题40 定理13：受向心力作用的两物体在某高度速度相等则所有等高度速度均相等。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 189,
+      "candidate_type": "推论",
+      "text": "推论1：摆动、光滑约束曲线运动，或直线升降，如果某高度速度等，则高度等速度等。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 190,
+      "candidate_type": "推论",
+      "text": "推论2：n-1次方向心力下，速度正比于最大高度n次方与距离n次方之差的平方根。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 191,
+      "candidate_type": "命题",
+      "text": "命题41 问题28：向心力可积，求物体的运动曲线及对应曲线每一点的时间",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 192,
+      "candidate_type": "推论",
+      "text": "推论1：关于物体最大最小高度，即曲线的回归点的求法。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 193,
+      "candidate_type": "推论",
+      "text": "推论2：关于物体运动曲线任意点处与物体与力心连线的夹角",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 194,
+      "candidate_type": "推论",
+      "text": "推论3：立方反比定律下在给定高度以给定速度抛出的物体运动曲线（如何求？）",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 195,
+      "candidate_type": "命题",
+      "text": "命题42 问题29：已知向心力规律，求给定位置以给定速度沿给定方向抛体的运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 196,
+      "candidate_type": "第九章",
+      "text": "第九章 沿运动轨道的物体运动：回归点运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 197,
+      "candidate_type": "命题",
+      "text": "命题43 问题30：使物体沿一个绕力心转动的曲线运动，与沿同一静止曲线运动相同。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 198,
+      "candidate_type": "命题",
+      "text": "命题44 定理14：使物体沿固定轨道与沿相同旋转轨道运动的力之差正比于高度的立方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 199,
+      "candidate_type": "推论",
+      "text": "推论1：物体沿固定轨道与沿相同旋转轨道运动的力之差，与圆轨道运动所受的力之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 200,
+      "candidate_type": "推论",
+      "text": "推论2：物体在绕焦点旋转的椭圆轨道上运动的力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 201,
+      "candidate_type": "推论",
+      "text": "推论3：物体在绕中心点旋转的椭圆轨道上运动的力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 202,
+      "candidate_type": "推论",
+      "text": "推论4：更一般地绕旋转轨道运动的向心力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 203,
+      "candidate_type": "推论",
+      "text": "推论5：物体在新的向心力作用下所环绕的新的固定轨道可以求出",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 204,
+      "candidate_type": "推论",
+      "text": "推论6：距离立 方反比向心力作用下物体的轨迹（命题41推论3的逆命题）",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 205,
+      "candidate_type": "命题",
+      "text": "命题45问题31：求近圆轨道的回归点运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 209,
+      "candidate_type": "推论",
+      "text": "推论1：如果向心力正比于高度的任意次幂，则该幂可由回归点的运动求出，反之亦然",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 210,
+      "candidate_type": "推论",
+      "text": "推论2：",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 211,
+      "candidate_type": "第十章",
+      "text": "第十章 给定表面上的运动和摆动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 212,
+      "candidate_type": "命题",
+      "text": "命题46问题32：给定向心力求物体以定速度沿运动平面上某方向脱离给定位置的运动。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 213,
+      "candidate_type": "命题",
+      "text": "命题47定理15：在正比于物体距离的向心力作用下物体的运动轨迹和周期",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 214,
+      "candidate_type": "命题",
+      "text": "命题48定理16：球外表面旋轮边缘点轨迹长度与滚过球大圆弧所对应的弦高的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 215,
+      "candidate_type": "命题",
+      "text": "命题49定理17：球内表面旋轮边缘点轨迹长度与滚过球大圆弧所对应的弦高的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 216,
+      "candidate_type": "推论",
+      "text": "推论1：",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 217,
+      "candidate_type": "推论",
+      "text": "推论2",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 218,
+      "candidate_type": "命题",
+      "text": "命题50问题33：使摆体沿给定的摆线运动。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 219,
+      "candidate_type": "命题",
+      "text": "命题51定理18：如果球面各点的向心力都指向球心C，且在所处位置处都正比于到球心的距离。当单独受该力作用的物体T沿摆线QRS运动（按上个命题的方法）时，所有摆动的时间均相同，无论这些摆动有多么不同。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 220,
+      "candidate_type": "命题",
+      "text": "命题52问题34：求摆在各位置处的速度，以及完成部分或全部摆动的时间。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 221,
+      "candidate_type": "命题",
+      "text": "命题53问题35：已知曲线图形的面积，求使物体沿给定曲线作等时摆动的力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 222,
+      "candidate_type": "推论",
+      "text": "推论120",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 223,
+      "candidate_type": "推论",
+      "text": "推论220",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 224,
+      "candidate_type": "命题",
+      "text": "命题54问题3621",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 225,
+      "candidate_type": "命题",
+      "text": "命题55定理1921",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 226,
+      "candidate_type": "命题",
+      "text": "命题56问题3721",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 227,
+      "candidate_type": "第十一章",
+      "text": "第十一章 受向心力作用物体间的相向运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 228,
+      "candidate_type": "命题",
+      "text": "命题57定理20：相互吸引的两个物体绕共同重心的轨迹与彼此相对的轨迹相似",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 229,
+      "candidate_type": "命题",
+      "text": "命题58定理21：物体相对另一物体运动的轨迹，与一个固定另一个作环绕运动轨迹全等",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 230,
+      "candidate_type": "推论",
+      "text": "推论1：距离正比引力下两个物体相对重心或者相对彼此做共心椭圆运动，反之亦然",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 231,
+      "candidate_type": "推论",
+      "text": "推论2：平方反比引力下两个物体相对重心或相对彼此做圆锥曲线运动，反之亦然",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 232,
+      "candidate_type": "推论",
+      "text": "推论3：相互吸引的两个运动体与重心的连线或相互连线，扫过面积与时间成正比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 233,
+      "candidate_type": "命题",
+      "text": "命题59定理22：两个物体绕公共重心运动的周期与一物体固定另一物体运动周期之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 234,
+      "candidate_type": "命题",
+      "text": "命题60定理23：平方反比引力下物体绕运动体和同周期绕固定体运动的椭圆主轴之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 235,
+      "candidate_type": "命题",
+      "text": "命题61定理24：相互吸引的两个物体的运动等同于只受公共重心处相同引力的运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 236,
+      "candidate_type": "命题",
+      "text": "命题62问题38：求相互吸引力反比于距离平方的两个物体自给定位置处下落的运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 237,
+      "candidate_type": "命题",
+      "text": "命题63问题39：平方反比引力下两个物体自给定位置以给定速度沿给定方向的运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 238,
+      "candidate_type": "命题",
+      "text": "命题64问题40：求相互间引力与距离成正比的各物体运动规律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 239,
+      "candidate_type": "命题",
+      "text": "命题65定理25：中心距离平方成反比引力下多个物体间的相对运动轨迹可能为椭圆",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 240,
+      "candidate_type": "推论",
+      "text": "推论1：大物体与二体或多体环绕系统靠得越近，系统各部分相对运动的摄动就越大 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 241,
+      "candidate_type": "推论",
+      "text": "推论2：摄动最大的是，系统中物体与最大物体间的加速引力不是距离平方反比的",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 242,
+      "candidate_type": "推论",
+      "text": "推论3：各部分沿椭圆或圆运动而无明显摄动的系统，受到的扰动具有的特点。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 243,
+      "candidate_type": "命题",
+      "text": "命题66定理26：关于两个较小物体围绕最大物体的三体运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 244,
+      "candidate_type": "推论",
+      "text": "推论1：当所有物体相互间都按比例受力时，则在最里面物体受到的摄动最小",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 245,
+      "candidate_type": "推论",
+      "text": "推论2：T，P，S三体系统中，朔望点附近比方照点附近PT扫面积速度更大",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 246,
+      "candidate_type": "推论",
+      "text": "推论3：相同条件下，物体P在朔望点的速度比在方照点的速度更大。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 247,
+      "candidate_type": "推论",
+      "text": "推论4：相同条件下，物体P在朔望点的曲率比在方照点的速度更小。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 248,
+      "candidate_type": "推论",
+      "text": "推论5：相同条件下，物体P在朔望点距离物体T比方照点距离物体T更近",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 249,
+      "candidate_type": "推论",
+      "text": "推论6：远处的物体S对物体P绕T的轨道半径和周期的作用",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 250,
+      "candidate_type": "推论",
+      "text": "推论7：物体P所画椭圆轴线交替向前向后移动，但前移较后移多，总体上向前移。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 251,
+      "candidate_type": "推论",
+      "text": "推论8：远地点与近地点受力变化与距离平方反比值有最大差值，回归点运动最大。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 252,
+      "candidate_type": "推论",
+      "text": "推论9：关于偏心率的变化",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 253,
+      "candidate_type": "推论",
+      "text": "推论10：关于轨道面倾角的变化",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 254,
+      "candidate_type": "推论",
+      "text": "推论11：关于交会点的运动。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 255,
+      "candidate_type": "推论",
+      "text": "推论12：上述推论的误差，会合点处总是大于其对侧点。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 256,
+      "candidate_type": "推论",
+      "text": "推论13：物体S的质量大小对上述结论的影响",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 257,
+      "candidate_type": "推论",
+      "text": "推论14：当物体S极为遥远时的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 258,
+      "candidate_type": "推论",
+      "text": "推论15：轨道形状、尺寸间比例以及相互间夹角不变而只改变其大小的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 259,
+      "candidate_type": "推论",
+      "text": "推论16：轨道形状和相互间夹角不变时，如何由一种情形近似求出其他任意情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 260,
+      "candidate_type": "推论",
+      "text": "推论17：关于维持物体T环绕S的平均力与维持物体P环绕T的力之比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 261,
+      "candidate_type": "推论",
+      "text": "推论18：将物体P环绕物体T的运动推广至流体环绕物体T的运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 262,
+      "candidate_type": "推论",
+      "text": "推论19：球体T扩大并挖有环形水沟时水的涨落运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 263,
+      "candidate_type": "推论",
+      "text": "推论20：设圆环变硬，球体缩小，球与环共轴且内侧粘连的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 264,
+      "candidate_type": "推论",
+      "text": "推论21：球上赤道地区的物质变化导致交会点运动的变化",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 265,
+      "candidate_type": "推论",
+      "text": "推论22：由轨道交会点的运动推知星球的形状",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 266,
+      "candidate_type": "命题",
+      "text": "命题67定理27：大物体相对内侧二体公共重心的运动与相对最里侧物体的运动比较。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 267,
+      "candidate_type": "命题",
+      "text": "命题68定理28：几种受力或扰动情况下，外侧大物体S相对内侧二体重心运动比较",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 268,
+      "candidate_type": "推论",
+      "text": "推论：若干个小物体环绕一个大物体运动的两种情形对比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 269,
+      "candidate_type": "命题",
+      "text": "命题69定理29：平方反比引力系统中，两个物体的绝对引力之比等于二者质量之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 270,
+      "candidate_type": "推论",
+      "text": "推论1：平方反比引力系统中，每个物体的绝对引力之比等于它们的质量之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 271,
+      "candidate_type": "推论",
+      "text": "推论2：任意共同引力系统中，每个物体的绝对引力之比等于它们的质量之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 272,
+      "candidate_type": "推论",
+      "text": "推论3：平方反比引力下，多个小物体环绕一个很大物体运动的情形。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 273,
+      "candidate_type": "附注",
+      "text": "附注：",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 274,
+      "candidate_type": "第十二章",
+      "text": "第十二章 球体的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 275,
+      "candidate_type": "命题",
+      "text": "命题70 定理30：均匀球面每点引力与到点的距离平方成反比，则球面内小球不受引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 276,
+      "candidate_type": "命题",
+      "text": "命题71 定理31：条件同上，则球面外小球受指向球心引力反比于它球心距离的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 277,
+      "candidate_type": "命题",
+      "text": "命题72 定理32：球密度，球半径与球心与微体间距离之比给定，则引力与球半径成正比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 278,
+      "candidate_type": "命题",
+      "text": "命题73 定理33：球内微体受到球体的引力作用与微体到球心的距离成正比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 279,
+      "candidate_type": "附注",
+      "text": "附注：关于命题70和命题71中的固体表面厚度及质点大小",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 280,
+      "candidate_type": "命题",
+      "text": "命题74 定理34：球外的小球受到的吸引力与其到球心的距离平方成反比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 281,
+      "candidate_type": "推论",
+      "text": "推论1：均匀球体在相同距离处的吸引力的比值等于球质量之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 282,
+      "candidate_type": "推论",
+      "text": "推论2：在任意距离处吸引力正比于球的质量，反比于距离的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 283,
+      "candidate_type": "推论",
+      "text": "推论3：球外质点所受引力反比于到球心距离平方，则球体每个粒子引力规律相同。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 284,
+      "candidate_type": "命题",
+      "text": "命题75 定理35：两个球体之间的吸引力与两个球心的距离平方成反比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 285,
+      "candidate_type": "推论",
+      "text": "推论1：球体对其他均匀球的吸引正比于吸引球质量除于两个球心距离的平方。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 286,
+      "candidate_type": "推论",
+      "text": "推论2：被吸引的球也能吸引时情况相同。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 287,
+      "candidate_type": "推论",
+      "text": "推论3：物体绕圆锥曲线运动，吸引球位于焦点，物体在球外运动，则上述结论均成立。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 288,
+      "candidate_type": "推论",
+      "text": "推论4：如果环绕运动发生在球内，则仅有物体绕圆锥曲线中心运动时才满足上述结论。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 289,
+      "candidate_type": "命题",
+      "text": "命题76 定理36：球体特性具球对称性，则球体之间合引力就反比于球心距离的平方。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 290,
+      "candidate_type": "推论",
+      "text": "推论1：各方面都相似的同类型球体之间相互加速吸引作用都正比于吸引球体的质量。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 291,
+      "candidate_type": "推论",
+      "text": "推论2：当距离不等时则正比于吸引球体质量除于球心距离的平方。 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 292,
+      "candidate_type": "推论",
+      "text": "推论3：一个球相对于另一个球的相对重量，正比于两个球的质量之积。 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 293,
+      "candidate_type": "推论",
+      "text": "推论4：当球心距离变化时，则正比于两个球的质量之积，反比于球心距离的平方",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 294,
+      "candidate_type": "推论",
+      "text": "推论5：如果吸引作用两个球共同产生，上述比例式依然成立。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 295,
+      "candidate_type": "推论",
+      "text": "推论6：动球绕静球转动，球心距离正比于静球的直径，则动球环绕周期不变。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 296,
+      "candidate_type": "推论",
+      "text": "推论7：反过来，如果周期相同则球心距离正比于直径。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 297,
+      "candidate_type": "推论",
+      "text": "推论8：在绕圆锥曲线焦点运动中，具有上述条件吸引球在焦点时，上述结论成立。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 298,
+      "candidate_type": "推论",
+      "text": "推论9：如果具有上述条件的动球也能吸引，结论依然成立。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 299,
+      "candidate_type": "命题",
+      "text": "命题77 定理37：距离正比向心力下，两个均匀球体吸引合力正比于球心间的距离。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 300,
+      "candidate_type": "命题",
+      "text": "命题78 定理38：距离正比向心力下，两个周向均匀球体吸引力正比于球心间的距离。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 301,
+      "candidate_type": "附注",
+      "text": "附注：关于两种基本的引力形式",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 302,
+      "candidate_type": "引理",
+      "text": "引理29：关于圆外一点作两个圆与之相交，两圆半径趋同时两个圆心和交点连线之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 303,
+      "candidate_type": "命题",
+      "text": "命题79 定理39：关于薄球壳体对位于球壳外一点处质点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 304,
+      "candidate_type": "命题",
+      "text": "命题80 定理40：关于球体对位于球外一点处质点的引力的积分求法",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 305,
+      "candidate_type": "推论",
+      "text": "推论1：向心力在所有距离都相等的特例",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 306,
+      "candidate_type": "推论",
+      "text": "推论2：向心力反比于到小球距离的特例",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 307,
+      "candidate_type": "推论",
+      "text": "推论3：向心力反比于到小球距离立方的特例",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 308,
+      "candidate_type": "推论",
+      "text": "推论4：向心力反比于量V的一般情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 309,
+      "candidate_type": "命题",
+      "text": "命题81 问题41：利用积分法求球体对位于球外一点处质点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 314,
+      "candidate_type": "命题",
+      "text": "命题82 定理41：关于球内质点和球外质点受球体引力之比 ",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 315,
+      "candidate_type": "命题",
+      "text": "命题83 问题42 求置于球心位置处质点受到任意球冠的吸引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 316,
+      "candidate_type": "命题",
+      "text": "命题84 问题43 求球冠对非球心处物体的引力作用",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 317,
+      "candidate_type": "第十三章",
+      "text": "第十三章 非球体的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 318,
+      "candidate_type": "命题",
+      "text": "命题85 定理42：引力在物体接触时远大于有间隔时，则引力随距离大于二次方而减小。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 319,
+      "candidate_type": "命题",
+      "text": "命题86 定理43：引力随距离不小于三次方而减小，则接触时引力远大于有间隔时引力。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 320,
+      "candidate_type": "命题",
+      "text": "命题87 定理44：物体对质点的引力加速度与质点对质点的引力加速度的关系。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 321,
+      "candidate_type": "推论",
+      "text": "推论1：引力按距离的任意次幂减小的情形",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 322,
+      "candidate_type": "推论",
+      "text": "推论2：形状相似的物体吸引位置相似处小球的力，求出吸引力按距离的幂次变化；",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 323,
+      "candidate_type": "命题",
+      "text": "命题88 定理45：距离正比引力下，物体吸引力与质量相同重心相同的球体引力相同。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 324,
+      "candidate_type": "推论",
+      "text": "推论：距离正比引力下，被吸引物体将沿中心在吸引物体重心上的椭圆运动。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 325,
+      "candidate_type": "命题",
+      "text": "命题89 定理46：距离正比引力下，多物体合引力与质量相同重心相同的球体引力相同。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 326,
+      "candidate_type": "推论",
+      "text": "推论：距离正比引力下，多物体吸引的物体将沿中心在多物体公共重心上的椭圆运动。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 327,
+      "candidate_type": "命题",
+      "text": "命题90 问题44：求位于垂直圆盘平面且穿过圆心的直线上某处小球所受的吸引力。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 328,
+      "candidate_type": "推论",
+      "text": "推论1：距离平方反比引力下圆盘对过圆心垂线上一点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 329,
+      "candidate_type": "推论",
+      "text": "推论2：距离任意次幂反比引力下圆盘对过圆心垂线上一点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 330,
+      "candidate_type": "推论",
+      "text": "推论3：大于一次幂反比引力下直径无限大圆盘对过圆心垂线上一点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 331,
+      "candidate_type": "命题",
+      "text": "命题91 问题45：求旋转轴对称物体对位于轴线上一点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 332,
+      "candidate_type": "推论",
+      "text": "推论1：平方反比引力下圆柱体对轴线上一点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 333,
+      "candidate_type": "推论",
+      "text": "推论2：椭球体对其体外轴线上一点的引力",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 334,
+      "candidate_type": "推论",
+      "text": "推论3：椭球体对其内部轴线上小球的引力与小球到椭球中心的距离成正比",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 335,
+      "candidate_type": "命题",
+      "text": "命题92 问题46：已知吸引物体，求指向物体各点向心力减小的比率",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 336,
+      "candidate_type": "命题",
+      "text": "命题93 定理47：一侧为平面的均匀无限大物体的引力作用",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 337,
+      "candidate_type": "推论",
+      "text": "推论1：两个无限大平行平面为边界的物体的引力作用",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 338,
+      "candidate_type": "推论",
+      "text": "推论2：一侧为平面的均匀无限大物体近处部分引力作用的近似",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 339,
+      "candidate_type": "推论",
+      "text": "推论3：一侧为平面的均匀有限体对平面中心附近小球的引力作用",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 340,
+      "candidate_type": "第十四章",
+      "text": "第十四章 受指向极大物体各部分的向心力推动的极小物体运动",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 341,
+      "candidate_type": "命题",
+      "text": "命题94 定理48：如果两个相似介质被隔离开，间隔空间以两个平行平面为界。一个物体受垂直指向两个平面之一的吸引力或推斥力作用并通过该空间，过程中不受其他力的推动或阻碍；在与平面距离相等处吸引力是处处相等的，都指向平面的同一侧方向；则该物体（以相同的速度）从其中一个平面的入射角的正弦与自另一个平面出射角的正弦之比为一个定值。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 342,
+      "candidate_type": "命题",
+      "text": "命题95 定理49：相同条件下，物体入射前的速度与出射后的速度之比等于出射角的正弦与入射角的正弦之比。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 343,
+      "candidate_type": "命题",
+      "text": "命题96 定理50：在相同条件下，且入射前的运动快于入射后的运动，则如果入射线是连续偏折的，物体将最终被反射出来，前反射角等于入射角",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 344,
+      "candidate_type": "命题",
+      "text": "命题97 问题47：设在任意表面上入射角的正弦和出射角的正弦之比为定值，且物体路径在表面附近的偏折发生在极小空间内，可以看成是一个点，求能使所有自一个给定位置处发射的小球汇聚到另一个给定位置的曲面。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 345,
+      "candidate_type": "命题",
+      "text": "命题98 问题48：在相同条件下，如果绕轴AB作任意吸引表面CD，规则的或不规则的，且由给定位置A出发的物体必定经过该面，求第二个吸引面EF，它使这些物体汇聚于给定位置B。",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 346,
+      "candidate_type": "附注",
+      "text": "附注",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 349,
+      "candidate_type": "定义",
+      "text": "定义和定律",
+      "review_status": "pending_manual_review"
+    },
+    {
+      "source_line": 350,
+      "candidate_type": "第一章",
+      "text": "第一章 极限和概念和无穷小量之比",
+      "review_status": "pending_manual_review"
+    }
+  ]
+}

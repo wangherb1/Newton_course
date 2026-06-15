@@ -1,0 +1,16 @@
+{
+  "version": "0.0",
+  "nodes": [
+    {
+      "id": "principia-book1-chapter02-prop001-theorem001",
+      "display_id": "命题1 定理1",
+      "title": "仅受向心力作用的物体与固定力心的连线扫面积速度恒定",
+      "short_title": "扫面积速度恒定",
+      "node_type": "proposition_theorem",
+      "chapter_id": "book1_chapter02",
+      "status": "sample_draft",
+      "sample_page": true,
+      "path": "content/nodes/book1_chapter02/prop001_theorem001.mdx"
+    }
+  ]
+}

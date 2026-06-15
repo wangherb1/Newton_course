@@ -1,0 +1,43 @@
+---
+import SiteNav from '../components/SiteNav.astro';
+import OutlineExplorer from '../components/outline/OutlineExplorer';
+import { assetPath } from '../data/routes';
+import { flatOutlineNodes, outlineSource, principiaOutline } from '../data/principiaOutline';
+import { siteThemeVariables } from '../data/siteTheme';
+import '../styles/global.css';
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href={assetPath('/favicon.svg')} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="牛顿《自然哲学的数学原理》现代精读开放讲义全书目录。" />
+    <title>全书目录 | 牛顿《原理》现代精读</title>
+  </head>
+  <body>
+    <div class="site-shell" style={siteThemeVariables}>
+      <SiteNav current="outline" />
+      <header class="outline-hero">
+        <p class="eyebrow">Principia course outline</p>
+        <h1>全书目录</h1>
+        <p>基于廖日东老师《原理概要》整理的定义、定律、引理、命题、推论与附注</p>
+        <div class="outline-hero__meta">
+          <span>{principiaOutline.length - 1} 章</span>
+          <span>{flatOutlineNodes.length} 个目录条目</span>
+          <span>1 个已建设样板页</span>
+        </div>
+      </header>
+      <main class="outline-content">
+        <section class="outline-note">
+          <p>
+            本页目录来自 <code>{outlineSource.sourceFile}</code> 的自动提取结果。
+            未建设节点不提供跳转链接；条目文字、层级和状态仍需逐章人工校核。
+          </p>
+        </section>
+        <OutlineExplorer client:load groups={principiaOutline} />
+      </main>
+    </div>
+  </body>
+</html>

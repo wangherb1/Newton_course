@@ -1,0 +1,50 @@
+---
+import SiteNav from '../components/SiteNav.astro';
+import FeaturedSamplePage from '../components/home/FeaturedSamplePage.astro';
+import KnowledgeGraphTeaser from '../components/home/KnowledgeGraphTeaser.astro';
+import OutlineOverview from '../components/home/OutlineOverview.astro';
+import PrincipiaHero from '../components/home/PrincipiaHero.astro';
+import ProjectStatusPanel from '../components/home/ProjectStatusPanel.astro';
+import ReadingPaths from '../components/home/ReadingPaths.astro';
+import SourceAttribution from '../components/home/SourceAttribution.astro';
+import { assetPath } from '../data/routes';
+import { siteThemeVariables } from '../data/siteTheme';
+import '../styles/global.css';
+---
+
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href={assetPath('/favicon.svg')} />
+		<link rel="icon" href={assetPath('/favicon.ico')} />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>牛顿《原理》现代精读</title>
+	</head>
+	<body>
+		<div class="site-shell" style={siteThemeVariables}>
+			<SiteNav current="home" />
+			<PrincipiaHero />
+			<main class="home-content">
+				<section class="home-section course-intro">
+					<div class="section-heading">
+						<p class="section-kicker">Course introduction</p>
+						<h2>从历史文本进入数学物理思想</h2>
+					</div>
+					<p>
+						《自然哲学的数学原理》的阅读困难，不只来自语言与年代差异，也来自几何证明、历史术语和命题依赖关系的交织。
+						本项目以廖日东老师讲义为基础，将牛顿的几何思想、中文学术解释与现代微积分重述并置，逐步补充图示、互动演示和思考题。
+						目标不是简化原典，而是为本科生和更广泛的读者提供一条可循序进入的路径，在经典论证与现代数学语言之间建立对应关系。
+						当前站点首先作为开放讲义和课程材料的建设底稿，并为后续课程改革成果整理、校核与发布奠定基础。
+					</p>
+				</section>
+				<ReadingPaths />
+				<FeaturedSamplePage />
+				<OutlineOverview />
+				<KnowledgeGraphTeaser />
+				<SourceAttribution />
+				<ProjectStatusPanel />
+			</main>
+		</div>
+	</body>
+</html>

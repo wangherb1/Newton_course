@@ -1,0 +1,380 @@
+
+> web@0.0.1 dev
+> astro dev --host 127.0.0.1 --port 4321
+
+[vite] connected.
+[2m16:19:13[22m [34m[types][39m Generated [2m4ms[22m
+[2m16:19:13[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[42m[1m astro [22m[49m [32mv6.4.2[39m [2mready in[22m 8439 [2mms[22m
+[2m┃[22m Local    [36mhttp://127.0.0.1:4321/[39m
+[2m16:19:13[22m [32mwatching for file changes...[39m
+[2m16:19:31[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m70ms[22m
+[2m16:23:51[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m18ms[22m
+[2m16:23:51[22m [34m[200][39m / [2m22ms[22m
+[2m16:23:51[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001 [2m13ms[22m
+[2m16:24:11[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m43ms[22m
+[2m17:17:35[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m270ms[22m
+[2m17:17:35[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m279ms[22m
+[2m17:17:35[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m279ms[22m
+[2m17:18:26[22m [34m[watch][39m /src/styles/global.css
+[2m17:18:42[22m [34m[watch][39m /src/styles/global.css
+[2m17:19:31[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m84ms[22m
+[2m17:20:45[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m66ms[22m
+[2m17:21:36[22m [34m[watch][39m /src/styles/global.css
+[2m17:22:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m52ms[22m
+[2m17:22:52[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m279ms[22m
+[2m17:23:42[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m54ms[22m
+[2m17:24:41[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m51ms[22m
+[2m19:45:41[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001 [2m94ms[22m
+[2m19:45:41[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m40ms[22m
+[2m19:45:42[22m [34m[200][39m / [2m5ms[22m
+[2m19:45:42[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001 [2m60ms[22m
+[2m19:45:52[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m46ms[22m
+[2m19:49:47[22m [34m[watch][39m /src/styles/global.css
+[2m19:49:48[22m [34m[watch][39m /src/styles/global.css
+[2m19:49:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m329ms[22m
+[2m19:49:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m320ms[22m
+[2m19:49:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m296ms[22m
+[2m19:52:05[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m40ms[22m
+[2m19:52:11[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m56ms[22m
+[2m19:52:32[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m83ms[22m
+[2m19:53:09[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m58ms[22m
+[2m19:54:53[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m46ms[22m
+[2m20:07:47[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m593ms[22m
+[2m20:07:47[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m711ms[22m
+[2m20:07:47[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m720ms[22m
+[2m20:07:48[22m [33m[404][39m /assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v2.png [2m138ms[22m
+[2m20:07:48[22m [33m[404][39m /assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v2.png [2m75ms[22m
+[2m20:07:49[22m [33m[404][39m /assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v2.png [2m2ms[22m
+[2m20:07:51[22m [33m[404][39m /assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v2.png [2m2ms[22m
+[2m20:07:51[22m [33m[404][39m /assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v2.png [2m1ms[22m
+[2m20:07:52[22m [33m[404][39m /assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v2.png [2m1ms[22m
+[2m20:09:17[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m160ms[22m
+[2m20:09:27[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m187ms[22m
+[2m20:12:35[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m364ms[22m
+[2m20:13:26[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m393ms[22m
+[2m20:16:23[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m219ms[22m
+[2m20:19:24[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m222ms[22m
+[2m20:19:24[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m223ms[22m
+[2m20:19:24[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m58ms[22m
+[2m20:20:23[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m39ms[22m
+[2m20:21:03[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m94ms[22m
+[2m20:38:06[22m [34m[watch][39m /src/styles/global.css
+[2m20:38:06[22m [34m[watch][39m /src/styles/global.css
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m335ms[22m
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m335ms[22m
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m336ms[22m
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m336ms[22m
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m337ms[22m
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m337ms[22m
+[2m20:38:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m338ms[22m
+[2m20:39:32[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m171ms[22m
+[2m20:39:32[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m173ms[22m
+[2m20:39:32[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m108ms[22m
+[2m20:40:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m155ms[22m
+[2m20:40:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m155ms[22m
+[2m20:40:21[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m47ms[22m
+[2m20:41:18[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m47ms[22m
+[2m20:41:34[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m34ms[22m
+[2m20:42:04[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m109ms[22m
+[2m20:43:05[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m151ms[22m
+[2m21:02:27[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m438ms[22m
+[2m21:02:27[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m89ms[22m
+[2m21:03:23[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m442ms[22m
+[2m21:45:22[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m124ms[22m
+[2m21:45:22[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m129ms[22m
+[2m21:45:22[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m130ms[22m
+[2m21:45:22[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m130ms[22m
+[2m21:51:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m304ms[22m
+[2m21:51:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m318ms[22m
+[2m21:51:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m318ms[22m
+[2m21:51:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m318ms[22m
+[2m21:51:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m319ms[22m
+[2m21:51:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m100ms[22m
+[2m22:17:12[22m [34m[watch][39m /src/styles/global.css
+[2m22:17:12[22m [34m[watch][39m /src/styles/global.css
+[2m22:17:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m244ms[22m
+[2m22:17:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m243ms[22m
+[2m22:17:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m244ms[22m
+[2m22:17:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m245ms[22m
+[2m22:17:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m245ms[22m
+[2m22:17:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m246ms[22m
+[2m22:23:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m109ms[22m
+[2m22:23:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m107ms[22m
+[2m22:50:12[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m568ms[22m
+[2m22:50:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m162ms[22m
+[2m22:50:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m105ms[22m
+[2m00:01:11[22m [34m[watch][39m /src/styles/global.css
+[2m00:01:12[22m [34m[watch][39m /src/styles/global.css
+[2m00:01:14[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m433ms[22m
+[2m00:01:14[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m432ms[22m
+[2m00:01:14[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m100ms[22m
+[2m00:34:04[22m [34m[watch][39m /src/styles/global.css
+[2m00:34:04[22m [34m[watch][39m /src/styles/global.css
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m449ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m447ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m447ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m448ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m448ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m449ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m449ms[22m
+[2m00:34:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m436ms[22m
+[2m00:34:07[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof.png [2m15ms[22m
+[2m00:34:07[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof.png [2m1ms[22m
+[2m00:34:07[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof.png [2m1ms[22m
+[2m00:34:08[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof.png [2m1ms[22m
+[2m00:34:08[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof.png [2m1ms[22m
+[2m00:34:11[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof.png [2m2ms[22m
+[2m00:43:19[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m290ms[22m
+[2m00:51:18[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m475ms[22m
+[2m00:51:18[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m489ms[22m
+[2m00:51:18[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m490ms[22m
+[2m00:51:20[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png [2m11ms[22m
+[2m00:51:21[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png [2m1ms[22m
+[2m00:51:22[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png [2m4ms[22m
+[2m00:51:22[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png [2m7ms[22m
+[2m00:51:23[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png [2m1ms[22m
+[2m00:51:28[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_geometry_proof_cropped.png [2m1ms[22m
+[2m00:54:44[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m546ms[22m
+[2m00:57:35[22m [34m[watch][39m /src/styles/global.css
+[2m00:57:35[22m [34m[watch][39m /src/styles/global.css
+[2m01:11:30[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m224ms[22m
+[2m09:49:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m240ms[22m
+[2m10:41:11[22m Configuration file updated. Restarting...
+[vite] connected.
+[2m10:41:35[22m [34m[vite][39m Re-optimizing dependencies because lockfile has changed
+[2m10:41:36[22m [34m[vite][39m server restarted.
+[2m10:41:37[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m176ms[22m
+[2m10:41:37[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m174ms[22m
+[2m10:42:45[22m [34m[watch][39m /src/styles/global.css
+[2m10:42:45[22m [34m[watch][39m /src/styles/global.css
+[2m10:42:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m679ms[22m
+[2m10:42:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m680ms[22m
+[2m10:42:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m681ms[22m
+[2m10:42:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m681ms[22m
+[2m10:42:51[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_modern_figure_2_1.png [2m9ms[22m
+[2m10:42:52[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_modern_figure_2_1.png [2m1ms[22m
+[2m10:42:53[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_modern_figure_2_1.png [2m4ms[22m
+[2m10:42:53[22m [33m[404][39m /assets/teacher-manuscripts/book1_chapter02/prop001_theorem001_modern_figure_2_1.png [2m3ms[22m
+[2m10:46:22[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m223ms[22m
+[2m10:46:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m111ms[22m
+[2m10:47:32[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m706ms[22m
+[2m10:48:13[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m300ms[22m
+[2m10:49:11[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m707ms[22m
+[2m10:49:11[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m726ms[22m
+[2m10:50:32[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m680ms[22m
+[2m10:50:40[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m964ms[22m
+[2m10:50:41[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m795ms[22m
+[2m10:51:31[22m [34m[watch][39m /src/styles/global.css
+[2m10:52:24[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m510ms[22m
+[2m10:53:33[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m919ms[22m
+[2m10:54:46[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m647ms[22m
+[2m12:43:27[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m647ms[22m
+[2m12:43:27[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m80ms[22m
+[2m12:45:36[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1336ms[22m
+[2m12:45:59[22m [34m[watch][39m /src/styles/global.css
+[2m12:45:59[22m [34m[watch][39m /src/styles/global.css
+[2m12:46:02[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1080ms[22m
+[2m12:46:02[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1082ms[22m
+[2m12:46:02[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1084ms[22m
+[2m12:46:02[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1087ms[22m
+[2m12:46:02[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1088ms[22m
+[2m12:46:03[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m417ms[22m
+[2m12:47:26[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m404ms[22m
+[2m12:47:31[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m447ms[22m
+[2m12:47:31[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m286ms[22m
+[2m13:11:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m800ms[22m
+[2m13:11:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m818ms[22m
+[2m13:14:25[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m1321ms[22m
+[2m13:14:28[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m220ms[22m
+[2m13:14:29[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m262ms[22m
+[2m13:15:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m547ms[22m
+[2m14:16:19[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m555ms[22m
+[2m14:16:23[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m192ms[22m
+[2m15:45:31[22m [34m[watch][39m /src/styles/global.css
+[2m15:47:00[22m [34m[200][39m / [2m131ms[22m
+[2m15:47:01[22m [34m[200][39m /outline/ [2m812ms[22m
+[2m15:47:18[22m [34m[200][39m / [2m4ms[22m
+[2m15:47:19[22m [34m[200][39m /outline/ [2m1594ms[22m
+[2m15:47:20[22m [34m[200][39m /outline/ [2m796ms[22m
+[2m15:47:20[22m [34m[200][39m / [2m3ms[22m
+[2m15:50:35[22m [34m[watch][39m /src/styles/global.css
+[2m15:52:41[22m [34m[watch][39m /src/styles/global.css
+[2m15:54:52[22m [34m[200][39m / [2m6ms[22m
+[2m15:54:55[22m [34m[200][39m / [2m2ms[22m
+[2m15:54:57[22m [34m[200][39m /outline/ [2m692ms[22m
+[2m15:55:33[22m [34m[200][39m /outline/ [2m594ms[22m
+[2m15:56:17[22m [34m[200][39m /outline/ [2m721ms[22m
+[2m15:57:01[22m [34m[200][39m /outline/ [2m736ms[22m
+[2m15:57:33[22m [34m[200][39m /outline/ [2m631ms[22m
+[2m15:57:57[22m [34m[200][39m /outline/ [2m536ms[22m
+[2m16:08:31[22m [34m[200][39m / [2m4ms[22m
+[2m16:08:47[22m [34m[200][39m /outline/ [2m716ms[22m
+[2m16:09:02[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m56ms[22m
+[2m17:03:21[22m [34m[200][39m / [2m51ms[22m
+[2m17:04:04[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m122ms[22m
+[2m17:09:46[22m [34m[200][39m / [2m3ms[22m
+[2m22:37:47[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m177ms[22m
+[2m22:46:51[22m [34m[200][39m / [2m16ms[22m
+[2m22:46:57[22m [34m[200][39m /outline/ [2m729ms[22m
+[2m22:46:58[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m44ms[22m
+[2m22:57:58[22m [34m[watch][39m /src/styles/global.css
+[2m22:57:58[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m125ms[22m
+[2m22:57:58[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m126ms[22m
+[2m22:57:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m88ms[22m
+[2m22:57:59[22m [34m[200][39m / [2m18ms[22m
+[2m09:24:09[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m63ms[22m
+[2m13:36:52[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m185ms[22m
+[2m22:53:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m409ms[22m
+[2m22:53:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m174ms[22m
+[2m00:25:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m572ms[22m
+[2m00:25:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m169ms[22m
+[2m02:40:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m260ms[22m
+[2m02:40:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m258ms[22m
+[2m03:39:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m173ms[22m
+[2m03:39:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m71ms[22m
+[2m05:40:05[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m246ms[22m
+[2m05:40:05[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m232ms[22m
+[2m06:59:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m177ms[22m
+[2m06:59:51[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m139ms[22m
+[2m08:40:18[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m148ms[22m
+[2m08:40:19[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m159ms[22m
+[2m09:19:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m218ms[22m
+[2m09:19:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m125ms[22m
+[2m10:17:05[22m [34m[200][39m / [2m162ms[22m
+[2m11:03:38[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:03:38[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[2m11:03:51[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:03:51[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[2m11:03:52[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:03:52[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[2m11:04:34[22m [34m[watch][39m /src/styles/global.css
+[2m11:05:03[22m [34m[200][39m / [2m49ms[22m
+[2m11:05:04[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m341ms[22m
+[2m11:05:04[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m341ms[22m
+[2m11:05:04[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m342ms[22m
+[2m11:05:17[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m615ms[22m
+[2m11:05:17[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m617ms[22m
+[2m11:05:20[22m [34m[200][39m / [2m8ms[22m
+[2m11:05:23[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m233ms[22m
+[2m11:10:50[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m133ms[22m
+[2m11:14:37[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m512ms[22m
+[2m11:14:38[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m98ms[22m
+[2m11:15:13[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:15:13[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[2m11:15:34[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:15:34[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[2m11:16:56[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m311ms[22m
+[2m11:16:58[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m168ms[22m
+[2m11:18:18[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m211ms[22m
+[2m11:18:50[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:18:50[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[2m11:20:06[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m142ms[22m
+[2m11:20:08[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m135ms[22m
+[2m11:20:51[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m100ms[22m
+[2m11:37:32[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:37:32[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url /src/components/demos/AreaLawDemo.tsx (resolved id: E:/Codex/Newton_course/web/src/components/demos/AreaLawDemo.tsx) in E:/Codex/Newton_course/web/src/pages/nodes/book1-chapter02/prop001-theorem001.astro. Does the file exist?
+Error: Failed to load url /src/components/demos/AreaLawDemo.tsx (resolved id: E:/Codex/Newton_course/web/src/components/demos/AreaLawDemo.tsx) in E:/Codex/Newton_course/web/src/pages/nodes/book1-chapter02/prop001-theorem001.astro. Does the file exist?
+    at loadAndTransform (file:///E:/Codex/Newton_course/web/node_modules/vite/dist/node/chunks/config.js:22679:33)
+    at async fetchModule (file:///E:/Codex/Newton_course/web/node_modules/vite/dist/node/chunks/config.js:34013:15)
+    at async handleInvoke (file:///E:/Codex/Newton_course/web/node_modules/vite/dist/node/chunks/config.js:25853:21)
+    at async EventEmitter.listenerForInvokeHandler (file:///E:/Codex/Newton_course/web/node_modules/vite/dist/node/chunks/config.js:25908:13)
+[2m11:37:32[22m [33m[404][39m /src/components/demos/AreaLawDemo.tsx [2m14ms[22m
+[2m11:37:32[22m [33m[404][39m /src/components/demos/AreaLawDemo.tsx [2m15ms[22m
+[2m11:37:32[22m [33m[404][39m /src/components/demos/AreaLawDemo.tsx [2m16ms[22m
+[2m11:37:42[22m [34m[watch][39m /src/components/demos/AreaLawDemo.tsx
+[2m11:37:42[22m [34m[watch][39m src/components/demos/AreaLawDemo.tsx
+[2m11:37:42[22m [33m[404][39m /demos/book1_chapter02/prop001_theorem001/equal_area_demo [2m6ms[22m
+[2m11:40:37[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:41:43[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m135ms[22m
+[2m11:41:43[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m136ms[22m
+[2m11:41:43[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m86ms[22m
+[2m11:42:06[22m [34m[watch][39m /src/styles/global.css
+[2m11:42:24[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m83ms[22m
+[2m11:42:24[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m84ms[22m
+[2m11:42:25[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m54ms[22m
+[2m11:46:40[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:48:00[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m35ms[22m
+[2m11:50:45[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:52:38[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:53:46[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:53:46[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:54:54[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:55:34[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:56:29[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m250ms[22m
+[2m11:57:24[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m11:58:21[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m106ms[22m
+[2m12:05:14[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m129ms[22m
+[2m12:06:52[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m422ms[22m
+[2m12:06:53[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m281ms[22m
+[2m13:05:16[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m388ms[22m
+[2m13:20:08[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:20:22[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:20:53[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:21:07[22m [34m[watch][39m /src/styles/global.css
+[2m13:23:07[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:23:18[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:23:28[22m [34m[watch][39m /src/styles/global.css
+[2m13:24:56[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:25:55[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:26:11[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:27:23[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m158ms[22m
+[2m13:27:30[22m [34m[watch][39m /src/styles/global.css
+[2m13:28:12[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/1_1.html
+[2m13:28:27[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m101ms[22m
+[2m13:28:43[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_optimized.html
+[2m13:28:43[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/1_1.html
+[2m13:29:12[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:29:49[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m37ms[22m
+[2m13:30:14[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m57ms[22m
+[2m13:41:29[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m53ms[22m
+[2m13:45:58[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:47:56[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:50:41[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m85ms[22m
+[2m13:50:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m62ms[22m
+[2m13:50:59[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m58ms[22m
+[2m13:51:44[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m88ms[22m
+[2m13:52:03[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m44ms[22m
+[2m13:52:41[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m37ms[22m
+[2m13:54:25[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:54:39[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:54:51[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:56:39[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:56:47[22m [34m[watch][39m /src/styles/global.css
+[2m13:58:27[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:58:38[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m13:58:43[22m [34m[watch][39m /src/styles/global.css
+[2m13:59:34[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m14:00:33[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m14:03:09[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m97ms[22m
+[2m14:03:25[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m44ms[22m
+[2m14:05:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m51ms[22m
+[2m14:53:11[22m [34m[200][39m / [2m8ms[22m
+[2m14:53:11[22m [34m[200][39m / [2m2ms[22m
+[2m16:49:17[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m16:54:58[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m17:00:06[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m17:00:31[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m17:01:29[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m17:08:02[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m17:12:05[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m230ms[22m
+[2m17:16:37[22m [34m[watch][39m public/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html
+[2m17:16:57[22m [34m[watch][39m /src/styles/global.css
+[2m17:20:19[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m126ms[22m
+[2m17:27:20[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m345ms[22m
+[2m17:31:09[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m46ms[22m
+[2m17:45:16[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m841ms[22m
+[2m17:57:35[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m129ms[22m
+[2m17:57:40[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m190ms[22m
+[2m17:59:56[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m90ms[22m
+[2m17:59:56[22m [34m[200][39m /nodes/book1-chapter02/prop001-theorem001/ [2m56ms[22m
+[2m18:44:45[22m [34m[200][39m / [2m14ms[22m

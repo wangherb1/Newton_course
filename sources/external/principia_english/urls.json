@@ -1,0 +1,32 @@
+{
+  "primary_source": {
+    "name": "Wikisource 1846 digital page layout of the Andrew Motte translation",
+    "base_url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)",
+    "notes": "Primary digital source for routine English text extraction and original source-page illustrations. Translation attribution remains Andrew Motte 1729."
+  },
+  "sample_source": {
+    "node_id": "book1_section2_prop01_theorem01",
+    "title": "PROPOSITION I. THEOREM I.",
+    "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)/BookI-II"
+  },
+  "backup_sources": [
+    {
+      "name": "Wikisource 1729 Andrew Motte transcription",
+      "base_url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+      "use_case": "Comparison source. Retained for provenance and cross-checking."
+    },
+    {
+      "name": "Project Gutenberg 1846 electronic text",
+      "base_url": "https://www.gutenberg.org/ebooks/76404",
+      "html_url": "https://www.gutenberg.org/cache/epub/76404/pg76404-images.html",
+      "use_case": "Full-text backup and cross-checking."
+    }
+  ],
+  "scan_backup": {
+    "name": "Internet Archive 1729 scan backup",
+    "local_vol_1": "E:\\Download\\bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1",
+    "local_vol_2": "E:\\Download\\bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_2",
+    "project_archive": "E:\\Codex\\Newton_course\\sources\\external\\motte_1729",
+    "use_case": "Historical scan verification only. Do not use as routine extraction source."
+  }
+}

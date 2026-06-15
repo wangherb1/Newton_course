@@ -1,0 +1,41 @@
+{
+  "node_id": "book1_section2_prop01_theorem01",
+  "work": "The Mathematical Principles of Natural Philosophy",
+  "translation": "Andrew Motte English translation, first published 1729",
+  "digital_source_edition": "Wikisource 1846 digital transcription",
+  "source": "Wikisource",
+  "source_priority": "primary",
+  "source_url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)/BookI-II",
+  "source_page_slug": "book_i_section_ii",
+  "book": "Book I",
+  "section": "Section II",
+  "section_title": "Of the invention of centripetal forces",
+  "node_type": "proposition_theorem",
+  "node_number": "Proposition I. Theorem I.",
+  "title_en": "The areas, which revolving bodies describe by radii drawn to an immovable centre of force do lie in the same immovable planes, and are proportional to the times in which they are described.",
+  "title_zh": "仅受向心力作用的物体与固定力心的连线扫面积速度恒定",
+  "contains": [
+    "proposition",
+    "proof",
+    "corollary_1",
+    "corollary_2",
+    "corollary_3",
+    "corollary_4",
+    "corollary_5",
+    "corollary_6"
+  ],
+  "extraction_rule": "Extract from heading `PROPOSITION I. THEOREM I.` up to but excluding `PROPOSITION II. THEOREM II.`.",
+  "extraction_status": "auto_extracted_pending_manual_review",
+  "manual_review_status": "not_reviewed",
+  "scan_verification": {
+    "project_archive": "E:\\Codex\\Newton_course\\sources\\external\\motte_1729",
+    "volume": "vol_1",
+    "ia_scan_leaf": "102-103",
+    "ia_archive_pdf_page_1_based": "103-104",
+    "printed_page": "57-58",
+    "verification_status": "pending_manual_comparison"
+  },
+  "created_at": "2026-05-31T22:25:54+08:00",
+  "updated_at": "2026-05-31T22:25:54+08:00",
+  "notes": "Extracted from the Wikisource 1846 digital transcription of the Motte translation. Must be manually compared with the matching scan before final public release."
+}

@@ -1,0 +1,18 @@
+{
+  "principia-homepage": {
+    "asset_version": "v1",
+    "background_image": "/assets/heroes/principia_main/homepage_hero_ai_v1.png",
+    "canonical_asset": "assets/images/heroes/principia_main/homepage_hero_ai_v1.png",
+    "alt": "深蓝背景上的牛顿力学体系封面图：太阳系尺度的引力秩序、轨道、抛射运动与现代数学曲线语言",
+    "visual_mode": "ai_image_only",
+    "review_status": "approved_for_homepage_cover"
+  },
+  "principia-book1-chapter02-prop001-theorem001": {
+    "asset_version": "v1",
+    "background_image": "/assets/heroes/book1_chapter02/prop001_theorem001_hero_ai_v1.png",
+    "canonical_asset": "assets/images/heroes/book1_chapter02/prop001_theorem001_hero_ai_v1.png",
+    "alt": "深蓝网格背景上的金色椭圆轨道与扫掠区域氛围图",
+    "visual_mode": "ai_image_only",
+    "review_status": "approved_for_sample_page"
+  }
+}

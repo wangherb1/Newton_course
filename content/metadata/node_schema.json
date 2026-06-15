@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/newton-course/node-schema.json",
+  "title": "Newton Course Content Node",
+  "type": "object",
+  "required": [
+    "id",
+    "book",
+    "part",
+    "chapter_id",
+    "chapter_title",
+    "node_type",
+    "node_number",
+    "display_id",
+    "title_cn",
+    "status",
+    "sample_page",
+    "review_panel",
+    "chapter_intro",
+    "source_status",
+    "source_files",
+    "visual",
+    "graph",
+    "questions",
+    "comments",
+    "rights",
+    "last_updated"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^principia-[a-z0-9-]+$"
+    },
+    "book": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "part": {
+      "type": "string"
+    },
+    "chapter_id": {
+      "type": "string"
+    },
+    "chapter_title": {
+      "type": "string"
+    },
+    "node_type": {
+      "type": "string",
+      "enum": [
+        "definition",
+        "law",
+        "lemma",
+        "proposition",
+        "problem",
+        "theorem",
+        "proposition_theorem",
+        "corollary",
+        "note",
+        "appendix_topic"
+      ]
+    },
+    "node_number": {
+      "type": "string"
+    },
+    "display_id": {
+      "type": "string"
+    },
+    "title_cn": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": ["string", "null"]
+    },
+    "short_title": {
+      "type": ["string", "null"]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "published",
+        "missing_source",
+        "pending_teacher_review",
+        "sample_draft"
+      ]
+    },
+    "sample_page": {
+      "type": "boolean"
+    },
+    "review_panel": {
+      "type": "object",
+      "required": ["visible", "mode"],
+      "properties": {
+        "visible": {
+          "type": "boolean"
+        },
+        "mode": {
+          "type": "string",
+          "enum": ["internal_review", "hidden_for_release"]
+        }
+      }
+    },
+    "chapter_intro": {
+      "type": "object",
+      "required": ["visible", "source"],
+      "properties": {
+        "visible": {
+          "type": "boolean"
+        },
+        "source": {
+          "type": ["string", "null"],
+          "enum": ["teacher_manuscript", null]
+        }
+      }
+    },
+    "source_status": {
+      "type": "object",
+      "required": [
+        "english_wikisource_1846",
+        "english_wikisource_1729_reference",
+        "english_gutenberg_1846_backup",
+        "motte_1729_scan_backup",
+        "teacher_translation",
+        "modern_explanation",
+        "figures",
+        "demo"
+      ],
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "source_files": {
+      "type": "object",
+      "required": ["teacher_docx", "english_primary_url"],
+      "additionalProperties": {
+        "type": ["string", "null"]
+      }
+    },
+    "visual": {
+      "type": "object",
+      "properties": {
+        "theme_key": {
+          "type": ["string", "null"]
+        },
+        "cover_image": {
+          "type": ["string", "null"]
+        },
+        "hero_visual_mode": {
+          "type": ["string", "null"],
+          "enum": ["ai_image_only", null]
+        },
+        "video_lesson": {
+          "type": ["string", "null"]
+        },
+        "demo_component": {
+          "type": ["string", "null"]
+        },
+        "teacher_translation_figure": {
+          "type": ["string", "null"]
+        },
+        "modern_explanation_figure": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "graph": {
+      "type": "object",
+      "required": ["depends_on", "used_by", "related_nodes"],
+      "properties": {
+        "depends_on": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "used_by": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "related_nodes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "questions": {
+      "type": "array"
+    },
+    "comments": {
+      "type": "object",
+      "required": ["enabled", "provider"],
+      "properties": {
+        "enabled": {"const": false},
+        "provider": {"const": "placeholder"}
+      }
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "teacher_attribution",
+        "digital_editor",
+        "english_source_license_note",
+        "public_release_status"
+      ],
+      "properties": {
+        "teacher_attribution": {"type": "string"},
+        "digital_editor": {"type": "string"},
+        "english_source_license_note": {"type": "string"},
+        "public_release_status": {"type": "string"}
+      }
+    },
+    "last_updated": {
+      "type": "string"
+    }
+  }
+}

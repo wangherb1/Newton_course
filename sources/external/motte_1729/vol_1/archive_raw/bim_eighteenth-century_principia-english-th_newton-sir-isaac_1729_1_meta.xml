@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <identifier>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1</identifier>
+  <adaptive_ocr>true</adaptive_ocr>
+  <auditor>associate-jonathan-balignot@archive.org</auditor>
+  <betterpdf>true</betterpdf>
+  <boxid>IA40310407</boxid>
+  <canister>IA40310407-03</canister>
+  <collection>pub_eighteenth-century</collection>
+  <collection>bim_microfilm</collection>
+  <collection>microfilm</collection>
+  <collection-catalog-number>t142590</collection-catalog-number>
+  <contrast_max>143</contrast_max>
+  <contrast_min>15</contrast_min>
+  <contributor>Internet Archive</contributor>
+  <copies>2</copies>
+  <creator>Newton, Sir Isaac.</creator>
+  <date>1729</date>
+  <derive_version>0.0.22</derive_version>
+  <description>[Principia. English]. The mathematical principles of natural philosophy. By Sir Isaac Newton. Translated into English by Andrew Motte. To which are added, The laws of the moon's motion, according to gravity. By John Machin ... In two volumes. 1729: &lt;a href="https://archive.org/search.php?query=sim_pubid%3A24073%20AND%20volume%3A1" rel="ugc nofollow"&gt;Volume 1&lt;/a&gt;.&lt;br /&gt;Digitized from &lt;a href="https://archive.org/details/sim_raw_scan_IA40310407-03/page/n8" rel="ugc nofollow"&gt;IA40310407-03&lt;/a&gt;.&lt;br /&gt;Next issue: &lt;a href="https://archive.org/details/bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_2" rel="ugc nofollow"&gt;bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_2&lt;/a&gt;.</description>
+  <language>Middle English</language>
+  <mediatype>texts</mediatype>
+  <metadata_operator>associate-jercyl-tradio@archive.org</metadata_operator>
+  <next_item>bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_2</next_item>
+  <notes>On large and fine paper.</notes>
+  <ppi>800</ppi>
+  <pub_type>Books</pub_type>
+  <scanner>microfilm04.cebu.archive.org</scanner>
+  <scanningcenter>cebu</scanningcenter>
+  <sim_pubid>24073</sim_pubid>
+  <software_version>nextStar 4.5.0.20626</software_version>
+  <source>IA40310407-03</source>
+  <source>microfilm</source>
+  <subject>Language &amp; Literature</subject>
+  <subject>Literary And Political Reviews</subject>
+  <subject>General Interest Periodicals--United Kingdom</subject>
+  <subject>Law</subject>
+  <subject>Philosophy &amp; Religion</subject>
+  <subject>Fine &amp; Performing Arts</subject>
+  <subject>Social Sciences</subject>
+  <subject>History</subject>
+  <subject>History--History of North And South America</subject>
+  <subject>Books</subject>
+  <subject>microfilm</subject>
+  <title>[Principia. English]. The mathematical principles of natural philosophy. By Sir Isaac Newton. Translated into English by Andrew Motte. To which are added, The laws of the moon's motion, according to gravity. By John Machin ... In two volumes.  1729: Vol 1</title>
+  <volume>1</volume>
+  <uploader>merlijn+microfilmderiver@archive.org</uploader>
+  <publicdate>2023-07-31 16:24:25</publicdate>
+  <addeddate>2023-07-31 16:24:25</addeddate>
+  <identifier-access>http://archive.org/details/bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1</identifier-access>
+  <identifier-ark>ark:/13960/s2vtddq189n</identifier-ark>
+  <imagecount>414</imagecount>
+  <ocr>tesseract 5.3.0-3-g9920</ocr>
+  <ocr_parameters>-l Fraktur+enm</ocr_parameters>
+  <ocr_module_version>0.0.21</ocr_module_version>
+  <ocr_detected_script>Latin</ocr_detected_script>
+  <ocr_detected_script_conf>0.8627</ocr_detected_script_conf>
+  <ocr_detected_lang>en</ocr_detected_lang>
+  <ocr_detected_lang_conf>1.0000</ocr_detected_lang_conf>
+  <page_number_confidence>82</page_number_confidence>
+  <page_number_module_version>1.0.3</page_number_module_version>
+  <pdf_module_version>0.0.23</pdf_module_version>
+  <foldoutcount>0</foldoutcount>
+  <external-identifier>urn:lcp:bim_eighteenth-century_principia-english-th_newton-sir-isaac_1729_1:epub:395aa937-5523-4c53-94d7-20eeb1784f52</external-identifier>
+</metadata>

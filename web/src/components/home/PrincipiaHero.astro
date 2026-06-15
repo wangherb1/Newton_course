@@ -1,0 +1,24 @@
+---
+import { assetPath, siteRoutes } from '../../data/routes';
+---
+
+<header class="home-hero">
+  <div class="home-hero__content">
+    <p class="eyebrow">Newton Principia Modern Reading Course</p>
+    <p class="home-hero__overline">开放式数学物理思想课程</p>
+    <h1>牛顿《自然哲学的数学原理》现代精读</h1>
+    <p class="home-hero__subtitle">几何思想、数学物理与现代微积分重述</p>
+    <p class="home-hero__intro">基于廖日东老师讲义建设的开放式数学物理思想课程</p>
+    <div class="button-row">
+      <a class="button button--gold" href={siteRoutes.outline}>进入全书目录</a>
+      <a class="button button--ghost" href={siteRoutes.sampleProp001Theorem001}>从命题1开始阅读</a>
+      <a class="button button--text" href={siteRoutes.learningPathsAnchor}>查看学习路径</a>
+    </div>
+  </div>
+  <img
+    alt=""
+    aria-hidden="true"
+    class="home-hero__background"
+    src={assetPath('/assets/heroes/principia_main/homepage_hero_ai_v1.png')}
+  />
+</header>

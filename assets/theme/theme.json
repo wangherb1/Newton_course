@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "siteTitle": "牛顿《原理》现代精读",
+    "subtitle": "几何思想与现代微积分重述",
+    "teacher": "廖日东，北京理工大学"
+  },
+  "colors": {
+    "deepBlue": "#0B1F3A",
+    "gold": "#C8A24A",
+    "parchment": "#F4E8C1",
+    "inkGreen": "#123D35",
+    "paper": "#FBF7EC",
+    "text": "#1E1E1E"
+  },
+  "fonts": {
+    "chinese": "SimSun, Songti SC, STSong, serif",
+    "english": "Times New Roman, Georgia, serif",
+    "math": "Times New Roman, Georgia, serif"
+  },
+  "components": {
+    "buttonRadius": "12px",
+    "cardRadius": "18px",
+    "lineWidth": 2
+  }
+}

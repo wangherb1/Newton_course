@@ -1,0 +1,18 @@
+{{header
+ | title      = [[../]]
+ | author     = Isaac Newton
+ | translator = Andrew Motte
+ | section    = Book I, Section II.
+ | previous   = [[../BookI-I|Section I]]
+ | next       =  [[../BookI-III|Section III]]
+ | notes      = 
+}}
+
+<div style="text-align:justify">
+<pages index="Newton's Principia (1846).djvu" from=109 to=122 fromsection="II" tosection="II" />
+</div>
+
+[[Category:Philosophiae Naturalis Principia Mathematica]]
+
+[[de:Mathematische Principien der Naturlehre/Buch1-II]]
+[[la:Philosophiae Naturalis Principia Mathematica - SECT. II. De inventione Virium centripetarum.]]

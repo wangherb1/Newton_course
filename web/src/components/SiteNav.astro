@@ -1,0 +1,14 @@
+---
+import { siteRoutes } from '../data/routes';
+
+const { current = '' } = Astro.props;
+---
+
+<nav class="site-nav" aria-label="主导航">
+  <a class="site-nav__brand" href={siteRoutes.home}>牛顿《原理》现代精读</a>
+  <div class="site-nav__links">
+    <a aria-current={current === 'home' ? 'page' : undefined} href={siteRoutes.home}>首页</a>
+    <a aria-current={current === 'outline' ? 'page' : undefined} href={siteRoutes.outline}>全书目录</a>
+    <a href={siteRoutes.sampleProp001Theorem001}>命题1样板页</a>
+  </div>
+</nav>
