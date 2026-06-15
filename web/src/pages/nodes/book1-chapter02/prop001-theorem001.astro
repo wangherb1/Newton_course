@@ -30,6 +30,7 @@ const chapterTheme = chapterThemes[nodeMeta.themeKey as keyof typeof chapterThem
 const heroVisual = heroVisuals[nodeMeta.id as keyof typeof heroVisuals];
 const showReviewPanel = siteConfig.reviewPanel.visible && reviewPanel.visible;
 const lectureVideoUrl = import.meta.env.PUBLIC_SAMPLE_VIDEO_URL || '';
+const equalAreaDemoUrl = assetPath('/demos/book1_chapter02/prop001_theorem001/equal_area_demo.html');
 const pageTitle = `${nodeMeta.displayId}：${nodeMeta.shortTitle} | 牛顿《原理》现代精读`;
 const pageVariables = [
   `--deep-blue: ${theme.colors.deepBlue}`,
@@ -81,8 +82,30 @@ const pageVariables = [
             <figcaption>示例视频：费曼关于行星在相同时间内扫过相等面积的讲解。该视频仅用于样板页模块演示。</figcaption>
           </figure>
           ) : (
-            <div class="video-lesson-placeholder">
-              Online preview omits the local 413 MB sample video. Set <code>PUBLIC_SAMPLE_VIDEO_URL</code> to enable the player.
+            <div class="video-lesson-placeholder" role="group" aria-label="Video lesson publication status">
+              <div class="video-lesson-placeholder__visual" aria-hidden="true">
+                <span class="video-lesson-placeholder__orbit"></span>
+                <span class="video-lesson-placeholder__sweep"></span>
+                <span class="video-lesson-placeholder__body"></span>
+              </div>
+              <div class="video-lesson-placeholder__content">
+                <p class="video-lesson-placeholder__label">Video lesson status</p>
+                <h3>Lecture video is ready locally; online publishing is pending rights and size handling.</h3>
+                <p>
+                  The local sample video is 9 min 15 sec, 1440 x 1080, and 413 MB. It is not uploaded to GitHub Pages because GitHub rejects ordinary files over 100 MB and the current sample still needs publication-rights confirmation.
+                </p>
+                <dl>
+                  <div>
+                    <dt>Online page</dt>
+                    <dd>Shows the complete lesson slot, metadata, and next action.</dd>
+                  </div>
+                  <div>
+                    <dt>Next release step</dt>
+                    <dd>Use <code>PUBLIC_SAMPLE_VIDEO_URL</code> for an externally hosted authorized video, or publish a compressed authorized MP4 under 100 MB.</dd>
+                  </div>
+                </dl>
+                <a class="button button--gold" href={equalAreaDemoUrl}>Open the dynamic equal-area demo</a>
+              </div>
             </div>
           )}
         </SourceBlock>
