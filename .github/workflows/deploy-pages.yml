@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -35,6 +37,9 @@ jobs:
       - name: Install dependencies
         working-directory: web
         run: npm ci
+
+      - name: Sync public media assets
+        run: python scripts/sync_web_public_assets.py
 
       - name: Build
         working-directory: web

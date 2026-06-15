@@ -12,6 +12,15 @@
 assets/videos/<chapter>/<node>/
 ```
 
+视频文件使用 Git LFS 跟踪，不直接作为普通 Git blob 提交。当前规则写在根目录
+`.gitattributes`：
+
+```text
+assets/videos/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/**/*.mov filter=lfs diff=lfs merge=lfs -text
+assets/videos/**/*.avi filter=lfs diff=lfs merge=lfs -text
+```
+
 命题1定理1当前目录为：
 
 ```text
@@ -23,6 +32,8 @@ assets/videos/book1_chapter02/prop001_theorem001/
 ```text
 web/public/assets/videos/<chapter>/<node>/
 ```
+
+`web/public/assets/videos/` 是同步副本，保持在 `.gitignore` 中，不手动提交。
 
 页面端引用路径使用：
 
@@ -66,7 +77,7 @@ assets/videos/book1_chapter02/prop001_theorem001/teacher_lecture.mp4
 python scripts\sync_web_public_assets.py
 ```
 
-3. 在页面中将 `<video src="...">` 改为：
+3. 在页面中将 `<video src="...">` 指向：
 
 ```text
 /assets/videos/book1_chapter02/prop001_theorem001/teacher_lecture.mp4

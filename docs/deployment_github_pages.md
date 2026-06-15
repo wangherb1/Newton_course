@@ -44,12 +44,22 @@ Every push to `main` triggers a new Pages deployment.
 
 ## Large videos
 
-GitHub rejects ordinary repository files larger than 100 MB. The local sample video
-`web/public/assets/videos/book1_chapter02/prop001_theorem001/feynman_equal_area_example.mp4`
-is intentionally ignored.
+GitHub rejects ordinary repository files larger than 100 MB. Course videos are tracked from
+the canonical `assets/videos/` directory with Git LFS, then copied into `web/public/assets/videos/`
+during the GitHub Actions build.
 
-For online video, use one of these options:
+The workflow uses:
 
-- Upload a compressed MP4 under 100 MB only if it is acceptable for repository history.
-- Put the video on external hosting and set `PUBLIC_SAMPLE_VIDEO_URL` in the Pages build environment.
-- Keep GitHub Pages for the static course site and use a dedicated media host for lectures.
+- `actions/checkout` with `lfs: true`
+- `python scripts/sync_web_public_assets.py`
+- `astro build`
+
+Keep `web/public/assets/videos/` ignored; it is a generated publish copy.
+
+For many future full-length videos, monitor GitHub LFS storage/bandwidth and the GitHub Pages
+artifact size. If the course grows beyond the Pages/LFS comfort zone, move videos to a media host
+and set page video URLs through `PUBLIC_SAMPLE_VIDEO_URL` or a video manifest.
+
+- GitHub repository blobs: ordinary files over 100 MB are blocked.
+- Git LFS: supports large binary files, but storage and bandwidth are metered.
+- GitHub Pages artifact: keep the published site near or below 1 GB for reliable deployment.

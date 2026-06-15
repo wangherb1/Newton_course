@@ -35,9 +35,6 @@ sources/external/motte_1729/logs/pdf_alignment_samples/**
 web/public/assets/videos/**/*.mp4
 web/public/assets/videos/**/*.mov
 web/public/assets/videos/**/*.avi
-assets/videos/**/*.mp4
-assets/videos/**/*.mov
-assets/videos/**/*.avi
 exports/devserver/
 exports/temp/
 exports/tmp/
