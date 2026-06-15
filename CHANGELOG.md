@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2026-06-15 GitHub Pages 与大视频部署链路
+
+- 打通本地 `main` 到 `wangherb1/Newton_course` 的 GitHub 同步与 GitHub Pages 自动部署。
+- 新增 `.github/workflows/deploy-pages.yml`，使用 GitHub Actions 构建 `web/` 并发布 `web/dist`。
+- 修复 Pages 子路径资源问题，确保页面、图片、动态演示 iframe 使用 `/Newton_course/` 下的正确路径。
+- 引入 Git LFS 跟踪 `assets/videos/**/*.mp4|mov|avi`，让 413MB 示例视频可以进入发布流程。
+- 工作流在构建前运行 `python scripts/sync_web_public_assets.py`，将 canonical 媒体同步到 `web/public/`。
+- 线上验证样板页、动态演示独立页和视频直链均可访问，视频支持 byte-range 请求。
+- 新增 `docs/README.md`、`docs/maintenance_guide.md` 和 `docs/status/2026-06-15_github_pages_deployment_pipeline.md`，固化后续维护入口、部署检查点和大视频发布规则。
+
 ## 2026-06-04 样板页新增视频课模块
 - 在命题1定理1样板页中新增“视频课：等面积定律讲解”模块，位置在英文原文模块之前。
 - 将示例 MP4 复制到项目视频资产目录：`assets/videos/book1_chapter02/prop001_theorem001/feynman_equal_area_example.mp4`。

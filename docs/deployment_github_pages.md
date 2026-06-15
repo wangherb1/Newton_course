@@ -2,6 +2,8 @@
 
 This project publishes the Astro site in `web/` through GitHub Pages.
 
+For the broader maintenance workflow, see `docs/maintenance_guide.md`.
+
 ## First-time setup
 
 1. Create a GitHub repository named `Newton_course`.
